@@ -16,23 +16,22 @@ A real pair from the runs (a passage about the 1859 *Royal Charter* wreck inquir
 
 Same facts. Half the words. *Cablese* is the historical word for it — attested 1916, the compressed dialect of cable traffic (etymonline: “shorthand used by journalists in cablegrams”); the operators used it for the same reason it matters now: **metered words are expensive, and output tokens are the expensive half of every LLM bill.**
 
+**→ [Run the demo in Google Colab](https://colab.research.google.com/github/Travis42/telegraph-test/blob/master/notebooks/telegraph_test.ipynb)** — one click, no setup, no key: frozen results replay instantly; an optional live mode lets you compress your own text with an OpenRouter key.
+
 ## Headline results (all deterministically graded — no LLM judges anywhere in the truth path)
 
 | Measurement | Result |
 |---|---|
 | Token savings, cablese records (GLM-5.3-Flash) | **54.6%** (ledger-recomputed) |
-| Foreign readers on GLM cablese (Gemma / Qwen / Nemotron / Gemma-26B) | recovery **1.00–1.10** (cablese ≥ plain, all pairs) |
+| Foreign readers on GLM cablese (Gemma / Qwen / Nemotron / Gemma-26B) | recovery **1.00–1.10** (cablese ≥ plaintext, all pairs) |
 | GLM reading foreign cablese (Gemma / Qwen / **GPT-5-mini**) | recovery **1.09 / 1.10 / 0.99** (parity at 27% savings) |
-| In-family: answer-from-cablese vs answer-from-plain | 82.5% vs 75.8% (McNemar p=3e-06) |
+| In-family: answer-from-cablese vs answer-from-plaintext | 82.5% vs 75.8% (McNemar p=3e-06) |
 | Decode answer → plain (per-answer transcription) | 0.86 ratio — real, honest cost |
 | Decode record → plain, then answer (storage loop) | **1.08 ratio** (p=0.031); decoded archive stays 40% leaner |
 | Per-model compressibility under identical instruction | 27% (GPT-5-mini) … 48% (Qwen) … 55% (GLM) — a property, not noise |
 
 **Verdict: cablese is a shared register across model families, not one model's idiolect.** Run `python3 verify_headlines.py` to recompute every number above from the frozen data in `data/runs/` — zero API calls.
 
-## Try it
-
-**→ [Open the demo notebook in Colab](notebooks/telegraph_test.ipynb)** — frozen results replay (no key, no cost) + optional live mode (bring an OpenRouter key, compress your own text).
 
 ## Repo layout
 
