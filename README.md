@@ -11,7 +11,7 @@ A real pair from the runs (a passage about the 1859 *Royal Charter* wreck inquir
 **Plain record (259 tokens mean / this one: 2470 chars):**
 > **Record of the Royal Charter Commission Text** — The text describes an official inquiry into the wreck of the Royal Charter, a steam clipper ship. A commission was appointed...
 
-**Cablese record (117 tokens mean / this one: 1412 chars):**
+**Telegraphese record (117 tokens mean / this one: 1412 chars):**
 > COMMISSION APPOINTED INQUIRE LOSS ROYAL CHARTER STEAM CLIPPER. SITTINGS LIVERPOOL FROM 6 FEBRUARY 1860 BEFORE MR TREMENHEERE ASSISTED CAPTAINS HARRIS...
 
 Same facts. Half the words. Victorian telegraph operators called this register *telegraphese* (the cable operators' own word for their traffic was *cablese* — we keep it as the package name); they used it for the same reason it matters now: **metered words are expensive, and output tokens are the expensive half of every LLM bill.**
@@ -21,8 +21,8 @@ Same facts. Half the words. Victorian telegraph operators called this register *
 | Measurement | Result |
 |---|---|
 | Token savings, telegraphese records (GLM-5.3-Flash) | **54.6%** (ledger-recomputed) |
-| Foreign readers on GLM cablese (Gemma / Qwen / Nemotron / Gemma-26B) | recovery **1.00–1.10** (cablese ≥ plain, all pairs) |
-| GLM reading foreign cablese (Gemma / Qwen / **GPT-5-mini**) | recovery **1.09 / 1.10 / 0.99** (parity at 27% savings) |
+| Foreign readers on GLM telegraphese (Gemma / Qwen / Nemotron / Gemma-26B) | recovery **1.00–1.10** (telegraphese ≥ plain, all pairs) |
+| GLM reading foreign telegraphese (Gemma / Qwen / **GPT-5-mini**) | recovery **1.09 / 1.10 / 0.99** (parity at 27% savings) |
 | In-family: answer-from-telegraphese vs answer-from-plain | 82.5% vs 75.8% (McNemar p=3e-06) |
 | Decode answer → plain (per-answer transcription) | 0.86 ratio — real, honest cost |
 | Decode record → plain, then answer (storage loop) | **1.08 ratio** (p=0.031); decoded archive stays 40% leaner |
