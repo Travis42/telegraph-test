@@ -1,6 +1,6 @@
 # The Telegraph Test
 
-**Can language models write in telegraphese — and be understood?**
+**Can language models write in cablese — the telegraph operators' compressed dialect — and be understood?**
 
 Instruct an LLM to write its records in *cablese* (drop articles and filler, abbreviate, keep every fact, number, and proper noun) and it emits **~55% fewer output tokens**. The evidence in this repo says downstream models — including *other model families* — read those compressed records **as well as or better than** plain-English records.
 
@@ -11,7 +11,7 @@ A real pair from the runs (a passage about the 1859 *Royal Charter* wreck inquir
 **Plain record (259 tokens mean / this one: 2470 chars):**
 > **Record of the Royal Charter Commission Text** — The text describes an official inquiry into the wreck of the Royal Charter, a steam clipper ship. A commission was appointed...
 
-**Telegraphese record (117 tokens mean / this one: 1412 chars):**
+**Cablese record (117 tokens mean / this one: 1412 chars):**
 > COMMISSION APPOINTED INQUIRE LOSS ROYAL CHARTER STEAM CLIPPER. SITTINGS LIVERPOOL FROM 6 FEBRUARY 1860 BEFORE MR TREMENHEERE ASSISTED CAPTAINS HARRIS...
 
 Same facts. Half the words. *Cablese* is the historical word for it — attested 1916, the compressed dialect of cable traffic (etymonline: “shorthand used by journalists in cablegrams”); the operators used it for the same reason it matters now: **metered words are expensive, and output tokens are the expensive half of every LLM bill.**
@@ -28,7 +28,7 @@ Same facts. Half the words. *Cablese* is the historical word for it — attested
 | Decode record → plain, then answer (storage loop) | **1.08 ratio** (p=0.031); decoded archive stays 40% leaner |
 | Per-model compressibility under identical instruction | 27% (GPT-5-mini) … 48% (Qwen) … 55% (GLM) — a property, not noise |
 
-**Verdict: telegraphese is a shared register across model families, not one model's idiolect.** Run `python3 verify_headlines.py` to recompute every number above from the frozen data in `data/runs/` — zero API calls.
+**Verdict: cablese is a shared register across model families, not one model's idiolect.** Run `python3 verify_headlines.py` to recompute every number above from the frozen data in `data/runs/` — zero API calls.
 
 ## Try it
 
