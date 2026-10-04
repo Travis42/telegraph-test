@@ -2,7 +2,7 @@
 
 **Can language models write in cablese — the telegraph operators' compressed dialect — and be understood?**
 
-Instruct an LLM to write its records in *cablese* (drop articles and filler, abbreviate, keep every fact, number, and proper noun) and it emits **~55% fewer output tokens**. The evidence in this repo says downstream models — including *other model families* — read those compressed records **as well as or better than** plain-English records.
+Instruct an LLM to write its records in *cablese* (drop articles and filler, abbreviate, keep every fact, number, and proper noun) and it emits **~55% fewer output tokens**. The evidence in this repo says downstream models — including *other model families* — read those compressed records **as well as or better than** plaintext records.
 
 ## See it in 30 seconds
 
@@ -26,8 +26,8 @@ Same facts. Half the words. *Cablese* is the historical word for it — attested
 | Foreign readers on GLM cablese (Gemma / Qwen / Nemotron / Gemma-26B) | recovery **1.00–1.10** (cablese ≥ plaintext, all pairs) |
 | GLM reading foreign cablese (Gemma / Qwen / **GPT-5-mini**) | recovery **1.09 / 1.10 / 0.99** (parity at 27% savings) |
 | In-family: answer-from-cablese vs answer-from-plaintext | 82.5% vs 75.8% (McNemar p=3e-06) |
-| Decode answer → plain (per-answer transcription) | 0.86 ratio — real, honest cost |
-| Decode record → plain, then answer (storage loop) | **1.08 ratio** (p=0.031); decoded archive stays 40% leaner |
+| Decode answer → plaintext (per-answer transcription) | 0.86 ratio — real, honest cost |
+| Decode record → plaintext, then answer (storage loop) | **1.08 ratio** (p=0.031); decoded archive stays 40% leaner |
 | Per-model compressibility under identical instruction | 27% (GPT-5-mini) … 48% (Qwen) … 55% (GLM) — a property, not noise |
 
 **Verdict: cablese is a shared register across model families, not one model's idiolect.** Run `python3 verify_headlines.py` to recompute every number above from the frozen data in `data/runs/` — zero API calls.
