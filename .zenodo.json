@@ -1,0 +1,9 @@
+{
+  "title": "The Telegraph Test: cablese (telegraphese) output-compression benchmark for LLMs",
+  "description": "Harness, frozen run artifacts, and verified results for the Telegraph Test: instructing LLMs to write in telegraphese (\"cablese\") cuts output tokens ~55% while models across four families recover the information at full fidelity. Deterministic, passage-anchored grading; no LLM judges in the truth path. Runs: baseline (bl5), cablese (cbl2), cross-model matrix (xm4), record-decode storage loop (rd1).",
+  "creators": [{"name": "Travis"}],
+  "license": "Apache-2.0",
+  "keywords": ["llm", "benchmark", "compression", "token-economics", "telegraphese", "cablese", "evaluation"],
+  "access_right": "open",
+  "notes": "Code: Apache-2.0. Data and benchmark artifacts (data/, ab/tasks2/): CC-BY-4.0. Companion write-up: 'Write Like It's 1866: LLMs Relearn Telegraphese'."
+}
