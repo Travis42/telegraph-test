@@ -3,10 +3,13 @@ message: "If you use the Telegraph Test benchmark or data, please cite it."
 title: "The Telegraph Test: cablese (telegraphese) output compression benchmark for LLMs"
 authors:
   - name: "Travis"
-type: dataset
-version: 1.0.0
+type: software
+version: 1.0.1
 date-released: "2026-10-04"
 license: Apache-2.0
+doi: 10.5281/zenodo.23146993
+repository-code: https://github.com/Travis42/telegraph-test
+url: https://doi.org/10.5281/zenodo.23146993
 keywords:
   - llm
   - benchmark

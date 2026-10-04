@@ -1,5 +1,7 @@
 # The Telegraph Test
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23146993.svg)](https://doi.org/10.5281/zenodo.23146993)
+
 **Can language models write in cablese — the telegraph operators' compressed dialect — and be understood?**
 
 Instruct an LLM to write its records in *cablese* (drop articles and filler, abbreviate, keep every fact, number, and proper noun) and it emits **~55% fewer output tokens**. The evidence in this repo says downstream models — including *other model families* — read those compressed records **as well as or better than** plaintext records.
