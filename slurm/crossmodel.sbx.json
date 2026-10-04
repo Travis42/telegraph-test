@@ -1,0 +1,12 @@
+{
+  "llm": {
+    "model": "ds-flash",
+    "lanes": [
+      "openrouter"
+    ],
+    "requests": 11000,
+    "hours": 12,
+    "mode": "advise",
+    "note": "OR mixed cheap panel via openrouter lane (~10.5k OR calls; true wavg ~0.10/0.40 per M -> ~5-8USD, ds-flash pricing overestimates conservatively); GLM-side calls via apprentice relay on coding-plan subscription (0 USD); judge pass deleted per SPEC-VALIDATION"
+  }
+}

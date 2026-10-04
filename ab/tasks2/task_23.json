@@ -1,0 +1,9 @@
+{
+  "expected_answer": "books about natural history",
+  "facts": [],
+  "id": "task_23",
+  "len_class": "short",
+  "passage": "The reading room of the subscription library was quiet on winter afternoons. The librarian had received, the day before, a parcel of books about natural history, bought at auction for a small amount. She entered each volume in the catalogue, mended a torn map with thin paper and paste, and set the new arrivals on the shelf nearest the fire, where the members might find them.",
+  "question": "What was in the parcel the librarian received?",
+  "register": "prose"
+}

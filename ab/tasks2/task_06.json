@@ -1,0 +1,9 @@
+{
+  "expected_answer": "the amount and the signature",
+  "facts": [],
+  "id": "task_06",
+  "len_class": "short",
+  "passage": "The clerk at the counting house examined the check twice before he paid it over. The amount agreed with the ledger, the signature matched the book of specimens, and the order of the drawers was in every part regular. He counted out the notes, made his mark against the entry, and the farmer went away satisfied with his money.",
+  "question": "What did the clerk verify before paying the check?",
+  "register": "prose"
+}

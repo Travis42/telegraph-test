@@ -1,0 +1,1037 @@
+{
+  "cablese_savings_pct": 66.365688,
+  "conditions": {
+    "A-CABLESE-DIRECT": {
+      "bootstrap_corrected_95": [
+        1.0,
+        1.0
+      ],
+      "bootstrap_raw_95": [
+        0.25,
+        0.375
+      ],
+      "dedupe": {
+        "drop_rate": 0.333333,
+        "dropped": 12,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "git_sha": "9eba0af676b1ee5601b0248d16a0a942192f31aa",
+      "judge": {
+        "grader_false_negative_rate": 1.0,
+        "grader_false_positive_rate_estimate": 0.0,
+        "hits_sampled": 8,
+        "misses_judged": 16,
+        "parse_rate": 1.0,
+        "verdicts_all": {
+          "ambiguous": 0,
+          "grader_wrong": 24,
+          "partial": 0,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "judge_correction_note": "corrected accuracy counts judged grader_wrong misses as correct; ALL misses are judged so the correction is complete and slice-invariant. Hit verdicts (sampled) feed the false-positive estimate only and are NOT folded into the corrected headline.",
+      "miss_taxonomy": {
+        "ambiguous": 0,
+        "grader_wrong": 16,
+        "partial": 0,
+        "unjudged": 0,
+        "unparsed": 0,
+        "wrong": 0
+      },
+      "overall_corrected": {
+        "accuracy": 1.0,
+        "correct": 24,
+        "n": 24,
+        "wilson_95": [
+          0.862024,
+          1.0
+        ]
+      },
+      "overall_raw": {
+        "accuracy": 0.333333,
+        "correct": 8,
+        "n": 24,
+        "wilson_95": [
+          0.179722,
+          0.532937
+        ]
+      },
+      "per_passage": [
+        {
+          "corrected_correct": 8,
+          "n": 8,
+          "raw_accuracy": 0.25,
+          "raw_correct": 2,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "corrected_correct": 16,
+          "n": 16,
+          "raw_accuracy": 0.375,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_12"
+        }
+      ],
+      "per_register_corrected": {
+        "prose": {
+          "accuracy": 1.0,
+          "correct": 24,
+          "n": 24,
+          "wilson_95": [
+            0.862024,
+            1.0
+          ]
+        }
+      },
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.333333,
+          "correct": 8,
+          "n": 24,
+          "wilson_95": [
+            0.179722,
+            0.532937
+          ]
+        }
+      },
+      "per_type_corrected": {
+        "fact": {
+          "accuracy": 1.0,
+          "correct": 18,
+          "n": 18,
+          "wilson_95": [
+            0.824121,
+            1.0
+          ]
+        },
+        "inference": {
+          "accuracy": 1.0,
+          "correct": 3,
+          "n": 3,
+          "wilson_95": [
+            0.438503,
+            1.0
+          ]
+        },
+        "numeric": {
+          "accuracy": 1.0,
+          "correct": 2,
+          "n": 2,
+          "wilson_95": [
+            0.34238,
+            1.0
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.333333,
+          "correct": 6,
+          "n": 18,
+          "wilson_95": [
+            0.162788,
+            0.562505
+          ]
+        },
+        "inference": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 3,
+          "wilson_95": [
+            0.0,
+            0.561497
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.5,
+          "correct": 1,
+          "n": 2,
+          "wilson_95": [
+            0.094531,
+            0.905469
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-CABLESE": {
+      "bootstrap_corrected_95": [
+        0.9375,
+        1.0
+      ],
+      "bootstrap_raw_95": [
+        0.625,
+        0.75
+      ],
+      "dedupe": {
+        "drop_rate": 0.333333,
+        "dropped": 12,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "git_sha": "9eba0af676b1ee5601b0248d16a0a942192f31aa",
+      "judge": {
+        "grader_false_negative_rate": 0.875,
+        "grader_false_positive_rate_estimate": 0.0,
+        "hits_sampled": 16,
+        "misses_judged": 8,
+        "parse_rate": 1.0,
+        "verdicts_all": {
+          "ambiguous": 0,
+          "grader_wrong": 23,
+          "partial": 0,
+          "unparsed": 0,
+          "wrong": 1
+        }
+      },
+      "judge_correction_note": "corrected accuracy counts judged grader_wrong misses as correct; ALL misses are judged so the correction is complete and slice-invariant. Hit verdicts (sampled) feed the false-positive estimate only and are NOT folded into the corrected headline.",
+      "miss_taxonomy": {
+        "ambiguous": 0,
+        "grader_wrong": 7,
+        "partial": 0,
+        "unjudged": 0,
+        "unparsed": 0,
+        "wrong": 1
+      },
+      "overall_corrected": {
+        "accuracy": 0.958333,
+        "correct": 23,
+        "n": 24,
+        "wilson_95": [
+          0.797582,
+          0.992607
+        ]
+      },
+      "overall_raw": {
+        "accuracy": 0.666667,
+        "correct": 16,
+        "n": 24,
+        "wilson_95": [
+          0.467063,
+          0.820278
+        ]
+      },
+      "per_passage": [
+        {
+          "corrected_correct": 8,
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "corrected_correct": 15,
+          "n": 16,
+          "raw_accuracy": 0.625,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_12"
+        }
+      ],
+      "per_register_corrected": {
+        "prose": {
+          "accuracy": 0.958333,
+          "correct": 23,
+          "n": 24,
+          "wilson_95": [
+            0.797582,
+            0.992607
+          ]
+        }
+      },
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.666667,
+          "correct": 16,
+          "n": 24,
+          "wilson_95": [
+            0.467063,
+            0.820278
+          ]
+        }
+      },
+      "per_type_corrected": {
+        "fact": {
+          "accuracy": 1.0,
+          "correct": 18,
+          "n": 18,
+          "wilson_95": [
+            0.824121,
+            1.0
+          ]
+        },
+        "inference": {
+          "accuracy": 0.666667,
+          "correct": 2,
+          "n": 3,
+          "wilson_95": [
+            0.20766,
+            0.938508
+          ]
+        },
+        "numeric": {
+          "accuracy": 1.0,
+          "correct": 2,
+          "n": 2,
+          "wilson_95": [
+            0.34238,
+            1.0
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.777778,
+          "correct": 14,
+          "n": 18,
+          "wilson_95": [
+            0.547854,
+            0.909991
+          ]
+        },
+        "inference": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 3,
+          "wilson_95": [
+            0.0,
+            0.561497
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.5,
+          "correct": 1,
+          "n": 2,
+          "wilson_95": [
+            0.094531,
+            0.905469
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-PLAIN": {
+      "bootstrap_corrected_95": [
+        1.0,
+        1.0
+      ],
+      "bootstrap_raw_95": [
+        0.5,
+        0.5625
+      ],
+      "dedupe": {
+        "drop_rate": 0.333333,
+        "dropped": 12,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "git_sha": "9eba0af676b1ee5601b0248d16a0a942192f31aa",
+      "judge": {
+        "grader_false_negative_rate": 1.0,
+        "grader_false_positive_rate_estimate": 0.0,
+        "hits_sampled": 13,
+        "misses_judged": 11,
+        "parse_rate": 1.0,
+        "verdicts_all": {
+          "ambiguous": 0,
+          "grader_wrong": 24,
+          "partial": 0,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "judge_correction_note": "corrected accuracy counts judged grader_wrong misses as correct; ALL misses are judged so the correction is complete and slice-invariant. Hit verdicts (sampled) feed the false-positive estimate only and are NOT folded into the corrected headline.",
+      "miss_taxonomy": {
+        "ambiguous": 0,
+        "grader_wrong": 11,
+        "partial": 0,
+        "unjudged": 0,
+        "unparsed": 0,
+        "wrong": 0
+      },
+      "overall_corrected": {
+        "accuracy": 1.0,
+        "correct": 24,
+        "n": 24,
+        "wilson_95": [
+          0.862024,
+          1.0
+        ]
+      },
+      "overall_raw": {
+        "accuracy": 0.541667,
+        "correct": 13,
+        "n": 24,
+        "wilson_95": [
+          0.350749,
+          0.721087
+        ]
+      },
+      "per_passage": [
+        {
+          "corrected_correct": 8,
+          "n": 8,
+          "raw_accuracy": 0.5,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "corrected_correct": 16,
+          "n": 16,
+          "raw_accuracy": 0.5625,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_12"
+        }
+      ],
+      "per_register_corrected": {
+        "prose": {
+          "accuracy": 1.0,
+          "correct": 24,
+          "n": 24,
+          "wilson_95": [
+            0.862024,
+            1.0
+          ]
+        }
+      },
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.541667,
+          "correct": 13,
+          "n": 24,
+          "wilson_95": [
+            0.350749,
+            0.721087
+          ]
+        }
+      },
+      "per_type_corrected": {
+        "fact": {
+          "accuracy": 1.0,
+          "correct": 18,
+          "n": 18,
+          "wilson_95": [
+            0.824121,
+            1.0
+          ]
+        },
+        "inference": {
+          "accuracy": 1.0,
+          "correct": 3,
+          "n": 3,
+          "wilson_95": [
+            0.438503,
+            1.0
+          ]
+        },
+        "numeric": {
+          "accuracy": 1.0,
+          "correct": 2,
+          "n": 2,
+          "wilson_95": [
+            0.34238,
+            1.0
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.555556,
+          "correct": 10,
+          "n": 18,
+          "wilson_95": [
+            0.337164,
+            0.754405
+          ]
+        },
+        "inference": {
+          "accuracy": 0.333333,
+          "correct": 1,
+          "n": 3,
+          "wilson_95": [
+            0.061492,
+            0.79234
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.5,
+          "correct": 1,
+          "n": 2,
+          "wilson_95": [
+            0.094531,
+            0.905469
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-PLAIN-DIRECT": {
+      "bootstrap_corrected_95": [
+        1.0,
+        1.0
+      ],
+      "bootstrap_raw_95": [
+        0.8125,
+        0.875
+      ],
+      "dedupe": {
+        "drop_rate": 0.333333,
+        "dropped": 12,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "git_sha": "9eba0af676b1ee5601b0248d16a0a942192f31aa",
+      "judge": {
+        "grader_false_negative_rate": 1.0,
+        "grader_false_positive_rate_estimate": 0.0,
+        "hits_sampled": 20,
+        "misses_judged": 4,
+        "parse_rate": 1.0,
+        "verdicts_all": {
+          "ambiguous": 0,
+          "grader_wrong": 24,
+          "partial": 0,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "judge_correction_note": "corrected accuracy counts judged grader_wrong misses as correct; ALL misses are judged so the correction is complete and slice-invariant. Hit verdicts (sampled) feed the false-positive estimate only and are NOT folded into the corrected headline.",
+      "miss_taxonomy": {
+        "ambiguous": 0,
+        "grader_wrong": 4,
+        "partial": 0,
+        "unjudged": 0,
+        "unparsed": 0,
+        "wrong": 0
+      },
+      "overall_corrected": {
+        "accuracy": 1.0,
+        "correct": 24,
+        "n": 24,
+        "wilson_95": [
+          0.862024,
+          1.0
+        ]
+      },
+      "overall_raw": {
+        "accuracy": 0.833333,
+        "correct": 20,
+        "n": 24,
+        "wilson_95": [
+          0.641469,
+          0.933213
+        ]
+      },
+      "per_passage": [
+        {
+          "corrected_correct": 8,
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "corrected_correct": 16,
+          "n": 16,
+          "raw_accuracy": 0.8125,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_12"
+        }
+      ],
+      "per_register_corrected": {
+        "prose": {
+          "accuracy": 1.0,
+          "correct": 24,
+          "n": 24,
+          "wilson_95": [
+            0.862024,
+            1.0
+          ]
+        }
+      },
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.833333,
+          "correct": 20,
+          "n": 24,
+          "wilson_95": [
+            0.641469,
+            0.933213
+          ]
+        }
+      },
+      "per_type_corrected": {
+        "fact": {
+          "accuracy": 1.0,
+          "correct": 18,
+          "n": 18,
+          "wilson_95": [
+            0.824121,
+            1.0
+          ]
+        },
+        "inference": {
+          "accuracy": 1.0,
+          "correct": 3,
+          "n": 3,
+          "wilson_95": [
+            0.438503,
+            1.0
+          ]
+        },
+        "numeric": {
+          "accuracy": 1.0,
+          "correct": 2,
+          "n": 2,
+          "wilson_95": [
+            0.34238,
+            1.0
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.944444,
+          "correct": 17,
+          "n": 18,
+          "wilson_95": [
+            0.742427,
+            0.990125
+          ]
+        },
+        "inference": {
+          "accuracy": 0.333333,
+          "correct": 1,
+          "n": 3,
+          "wilson_95": [
+            0.061492,
+            0.79234
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.5,
+          "correct": 1,
+          "n": 2,
+          "wilson_95": [
+            0.094531,
+            0.905469
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "DECODE": {
+      "bootstrap_corrected_95": [
+        1.0,
+        1.0
+      ],
+      "bootstrap_raw_95": [
+        0.625,
+        0.75
+      ],
+      "dedupe": {
+        "drop_rate": 0.333333,
+        "dropped": 12,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "git_sha": "9eba0af676b1ee5601b0248d16a0a942192f31aa",
+      "judge": {
+        "grader_false_negative_rate": 1.0,
+        "grader_false_positive_rate_estimate": 0.0,
+        "hits_sampled": 16,
+        "misses_judged": 8,
+        "parse_rate": 1.0,
+        "verdicts_all": {
+          "ambiguous": 0,
+          "grader_wrong": 24,
+          "partial": 0,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "judge_correction_note": "corrected accuracy counts judged grader_wrong misses as correct; ALL misses are judged so the correction is complete and slice-invariant. Hit verdicts (sampled) feed the false-positive estimate only and are NOT folded into the corrected headline.",
+      "miss_taxonomy": {
+        "ambiguous": 0,
+        "grader_wrong": 8,
+        "partial": 0,
+        "unjudged": 0,
+        "unparsed": 0,
+        "wrong": 0
+      },
+      "overall_corrected": {
+        "accuracy": 1.0,
+        "correct": 24,
+        "n": 24,
+        "wilson_95": [
+          0.862024,
+          1.0
+        ]
+      },
+      "overall_raw": {
+        "accuracy": 0.666667,
+        "correct": 16,
+        "n": 24,
+        "wilson_95": [
+          0.467063,
+          0.820278
+        ]
+      },
+      "per_passage": [
+        {
+          "corrected_correct": 8,
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "corrected_correct": 16,
+          "n": 16,
+          "raw_accuracy": 0.625,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_12"
+        }
+      ],
+      "per_register_corrected": {
+        "prose": {
+          "accuracy": 1.0,
+          "correct": 24,
+          "n": 24,
+          "wilson_95": [
+            0.862024,
+            1.0
+          ]
+        }
+      },
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.666667,
+          "correct": 16,
+          "n": 24,
+          "wilson_95": [
+            0.467063,
+            0.820278
+          ]
+        }
+      },
+      "per_type_corrected": {
+        "fact": {
+          "accuracy": 1.0,
+          "correct": 18,
+          "n": 18,
+          "wilson_95": [
+            0.824121,
+            1.0
+          ]
+        },
+        "inference": {
+          "accuracy": 1.0,
+          "correct": 3,
+          "n": 3,
+          "wilson_95": [
+            0.438503,
+            1.0
+          ]
+        },
+        "numeric": {
+          "accuracy": 1.0,
+          "correct": 2,
+          "n": 2,
+          "wilson_95": [
+            0.34238,
+            1.0
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.722222,
+          "correct": 13,
+          "n": 18,
+          "wilson_95": [
+            0.491273,
+            0.875002
+          ]
+        },
+        "inference": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 3,
+          "wilson_95": [
+            0.0,
+            0.561497
+          ]
+        },
+        "numeric": {
+          "accuracy": 1.0,
+          "correct": 2,
+          "n": 2,
+          "wilson_95": [
+            0.34238,
+            1.0
+          ]
+        },
+        "ordering": {
+          "accuracy": 1.0,
+          "correct": 1,
+          "n": 1,
+          "wilson_95": [
+            0.206549,
+            1.0
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "R-CABLESE": {
+      "bootstrap_corrected_95": null,
+      "bootstrap_raw_95": null,
+      "dedupe": {
+        "drop_rate": 1.0,
+        "dropped": 12,
+        "kept": 0,
+        "threshold": 0.6
+      },
+      "git_sha": "9eba0af676b1ee5601b0248d16a0a942192f31aa",
+      "judge": {
+        "grader_false_negative_rate": null,
+        "grader_false_positive_rate_estimate": null,
+        "hits_sampled": 0,
+        "misses_judged": 0,
+        "parse_rate": null,
+        "verdicts_all": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "judge_correction_note": "corrected accuracy counts judged grader_wrong misses as correct; ALL misses are judged so the correction is complete and slice-invariant. Hit verdicts (sampled) feed the false-positive estimate only and are NOT folded into the corrected headline.",
+      "miss_taxonomy": {
+        "ambiguous": 0,
+        "grader_wrong": 0,
+        "partial": 0,
+        "unjudged": 0,
+        "unparsed": 0,
+        "wrong": 0
+      },
+      "overall_corrected": {
+        "accuracy": null,
+        "correct": 0,
+        "n": 0,
+        "wilson_95": null
+      },
+      "overall_raw": {
+        "accuracy": null,
+        "correct": 0,
+        "n": 0,
+        "wilson_95": null
+      },
+      "per_passage": [],
+      "per_register_corrected": {},
+      "per_register_raw": {},
+      "per_type_corrected": {},
+      "per_type_raw": {},
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "R-PLAIN": {
+      "bootstrap_corrected_95": null,
+      "bootstrap_raw_95": null,
+      "dedupe": {
+        "drop_rate": 1.0,
+        "dropped": 12,
+        "kept": 0,
+        "threshold": 0.6
+      },
+      "git_sha": "9eba0af676b1ee5601b0248d16a0a942192f31aa",
+      "judge": {
+        "grader_false_negative_rate": null,
+        "grader_false_positive_rate_estimate": null,
+        "hits_sampled": 0,
+        "misses_judged": 0,
+        "parse_rate": null,
+        "verdicts_all": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "judge_correction_note": "corrected accuracy counts judged grader_wrong misses as correct; ALL misses are judged so the correction is complete and slice-invariant. Hit verdicts (sampled) feed the false-positive estimate only and are NOT folded into the corrected headline.",
+      "miss_taxonomy": {
+        "ambiguous": 0,
+        "grader_wrong": 0,
+        "partial": 0,
+        "unjudged": 0,
+        "unparsed": 0,
+        "wrong": 0
+      },
+      "overall_corrected": {
+        "accuracy": null,
+        "correct": 0,
+        "n": 0,
+        "wilson_95": null
+      },
+      "overall_raw": {
+        "accuracy": null,
+        "correct": 0,
+        "n": 0,
+        "wilson_95": null
+      },
+      "per_passage": [],
+      "per_register_corrected": {},
+      "per_register_raw": {},
+      "per_type_corrected": {},
+      "per_type_raw": {},
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    }
+  },
+  "decode_fidelity": {
+    "mean_lexical_similarity": 0.541137,
+    "n": 24
+  },
+  "decode_ratio": 1.0,
+  "git_sha": "9eba0af676b1ee5601b0248d16a0a942192f31aa",
+  "mcnemar": {
+    "A-FROM-CABLESE_vs_A-FROM-PLAIN": {
+      "a": 11,
+      "b": 5,
+      "c": 2,
+      "d": 6,
+      "n": 24,
+      "p_value": 0.453125
+    },
+    "DECODE_vs_A-PLAIN-DIRECT": {
+      "a": 15,
+      "b": 1,
+      "c": 5,
+      "d": 3,
+      "n": 24,
+      "p_value": 0.21875
+    }
+  },
+  "passages": 2,
+  "record_tokens": {
+    "cablese_approx_tokens_total": 149,
+    "note": "approx_count heuristic (tcb.tokencount); API usage completion tokens are on the record ledger entries",
+    "per_passage": [
+      {
+        "cablese_approx_tokens": 77,
+        "plain_approx_tokens": 219,
+        "task_id": "task_11"
+      },
+      {
+        "cablese_approx_tokens": 72,
+        "plain_approx_tokens": 224,
+        "task_id": "task_12"
+      }
+    ],
+    "plain_approx_tokens_total": 443
+  },
+  "recovery_ratio": 0.958333,
+  "run_id": "cablese_20261003_153130",
+  "slice_id": "0017",
+  "task_offset": 36
+}

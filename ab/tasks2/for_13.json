@@ -1,0 +1,20 @@
+{
+  "expected_answer": "staging has caching off and canary on",
+  "facts": [
+    "config name is api-gateway",
+    "env is staging",
+    "replicas is 1",
+    "timeout is 8000 ms",
+    "retry is 2",
+    "ratelimit is 500 rps",
+    "feature mtls is on",
+    "feature caching is off",
+    "feature canary is on",
+    "owner is squad-pipeline"
+  ],
+  "id": "for_13",
+  "len_class": "short",
+  "passage": "CONFIG name=api-gateway env=staging replicas=1 timeout_ms=8000 retry=2 ratelimit_rps=500 features=mtls:on,caching:off,canary:on owner=squad-pipeline",
+  "question": "Which features differ between staging and prod in caching and canary terms (per this config)?",
+  "register": "formulaic"
+}

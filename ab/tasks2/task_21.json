@@ -1,0 +1,9 @@
+{
+  "expected_answer": "a small landscape in the old manner",
+  "facts": [],
+  "id": "task_21",
+  "len_class": "short",
+  "passage": "The sale at Marlowe's rooms began at noon and proceeded without incident. The best piece, a small landscape in the old manner, brought a surprising amount from a bidder who had sent a written order rather than attend. The clerk verified the check against the letter of instruction, the signature being thought genuine, and the picture was paid for and delivered the same afternoon.",
+  "question": "What was the best piece at the sale?",
+  "register": "prose"
+}

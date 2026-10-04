@@ -1,0 +1,9 @@
+{
+  "expected_answer": "in the wooden tower above the bar",
+  "facts": [],
+  "id": "task_24",
+  "len_class": "short",
+  "passage": "The pilots kept their watch in the wooden tower above the bar. Traffic at the mouth of the river was steady all week, and the log of boarding showed a greater number of vessels than in any month since the trade began. When fog came down, the station signaled with horn and bell, and no vessel grounded on the shifting sand while the weather held foul.",
+  "question": "Where did the pilots keep their watch?",
+  "register": "prose"
+}

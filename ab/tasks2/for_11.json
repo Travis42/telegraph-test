@@ -1,0 +1,18 @@
+{
+  "expected_answer": "oncall",
+  "facts": [
+    "checklist name is incident-handover",
+    "checklist version is 2",
+    "checklist has 4 items",
+    "item 1 timeline written is done",
+    "item 2 sev assigned is done",
+    "item 3 comms sent is done",
+    "item 4 followups ticketed is pending",
+    "owner is oncall"
+  ],
+  "id": "for_11",
+  "len_class": "short",
+  "passage": "CHECKLIST name=incident-handover v=2 items=4 [1]timeline-written [2]sev-assigned [3]comms-sent [4]followups-ticketed state=items-1-3-done,item-4-pending owner=oncall",
+  "question": "Who owns the incident-handover checklist?",
+  "register": "formulaic"
+}

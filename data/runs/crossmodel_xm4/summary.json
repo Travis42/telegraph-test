@@ -1,0 +1,7755 @@
+{
+  "anchoring_gate": {
+    "passages": {
+      "fact_long_01": {
+        "anchored_pool": 18,
+        "n": 18,
+        "quota": 24
+      },
+      "fact_long_02": {
+        "anchored_pool": 12,
+        "n": 12,
+        "quota": 24
+      },
+      "fact_long_03": {
+        "anchored_pool": 19,
+        "n": 19,
+        "quota": 24
+      },
+      "fact_long_04": {
+        "anchored_pool": 18,
+        "n": 18,
+        "quota": 24
+      },
+      "fact_long_05": {
+        "anchored_pool": 18,
+        "n": 18,
+        "quota": 24
+      },
+      "fact_long_06": {
+        "anchored_pool": 7,
+        "n": 7,
+        "quota": 24
+      },
+      "fact_med_01": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "fact_med_02": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "fact_med_03": {
+        "anchored_pool": 26,
+        "n": 24,
+        "quota": 24
+      },
+      "fact_med_04": {
+        "anchored_pool": 32,
+        "n": 24,
+        "quota": 24
+      },
+      "fact_med_05": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "fact_med_06": {
+        "anchored_pool": 16,
+        "n": 16,
+        "quota": 24
+      },
+      "for_01": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "for_02": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "for_03": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "for_04": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "for_05": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "for_06": {
+        "anchored_pool": 18,
+        "n": 18,
+        "quota": 24
+      },
+      "for_07": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "for_08": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "for_09": {
+        "anchored_pool": 10,
+        "n": 10,
+        "quota": 24
+      },
+      "for_10": {
+        "anchored_pool": 11,
+        "n": 11,
+        "quota": 24
+      },
+      "for_11": {
+        "anchored_pool": 11,
+        "n": 11,
+        "quota": 24
+      },
+      "for_12": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "for_13": {
+        "anchored_pool": 12,
+        "n": 12,
+        "quota": 24
+      },
+      "for_14": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "task_01": {
+        "anchored_pool": 5,
+        "n": 5,
+        "quota": 24
+      },
+      "task_02": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "task_03": {
+        "anchored_pool": 9,
+        "n": 9,
+        "quota": 24
+      },
+      "task_04": {
+        "anchored_pool": 11,
+        "n": 11,
+        "quota": 24
+      },
+      "task_05": {
+        "anchored_pool": 11,
+        "n": 11,
+        "quota": 24
+      },
+      "task_06": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "task_07": {
+        "anchored_pool": 8,
+        "n": 8,
+        "quota": 24
+      },
+      "task_08": {
+        "anchored_pool": 8,
+        "n": 8,
+        "quota": 24
+      },
+      "task_09": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "task_10": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "task_11": {
+        "anchored_pool": 8,
+        "n": 8,
+        "quota": 24
+      },
+      "task_12": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "task_13": {
+        "anchored_pool": 16,
+        "n": 16,
+        "quota": 24
+      },
+      "task_14": {
+        "anchored_pool": 8,
+        "n": 8,
+        "quota": 24
+      },
+      "task_15": {
+        "anchored_pool": 10,
+        "n": 10,
+        "quota": 24
+      },
+      "task_16": {
+        "anchored_pool": 9,
+        "n": 9,
+        "quota": 24
+      },
+      "task_17": {
+        "anchored_pool": 9,
+        "n": 9,
+        "quota": 24
+      },
+      "task_18": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "task_19": {
+        "anchored_pool": 22,
+        "n": 22,
+        "quota": 24
+      },
+      "task_20": {
+        "anchored_pool": 19,
+        "n": 19,
+        "quota": 24
+      },
+      "task_21": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "task_22": {
+        "anchored_pool": 9,
+        "n": 9,
+        "quota": 24
+      },
+      "task_23": {
+        "anchored_pool": 23,
+        "n": 23,
+        "quota": 24
+      },
+      "task_24": {
+        "anchored_pool": 28,
+        "n": 24,
+        "quota": 24
+      }
+    },
+    "rejected_unanchored": 19
+  },
+  "conditions": {
+    "A-FROM-CABLESE/R1": {
+      "bootstrap_raw_95": [
+        0.734722,
+        0.812412
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 156,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.775216,
+        "correct": 538,
+        "n": 694,
+        "wilson_95": [
+          0.742693,
+          0.80471
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 0.944444,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.631579,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 5,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 1.0,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.708333,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.875,
+          "raw_correct": 21,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.8125,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.444444,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.7,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 1.0,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.727273,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.5,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.6875,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.8,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.772727,
+          "raw_correct": 17,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.736842,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.428571,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.826087,
+          "raw_correct": 19,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.791667,
+          "raw_correct": 19,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.818182,
+          "correct": 162,
+          "n": 198,
+          "wilson_95": [
+            0.758574,
+            0.865679
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.751323,
+          "correct": 142,
+          "n": 189,
+          "wilson_95": [
+            0.685104,
+            0.807528
+          ]
+        },
+        "prose": {
+          "accuracy": 0.762215,
+          "correct": 234,
+          "n": 307,
+          "wilson_95": [
+            0.711537,
+            0.806412
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.828974,
+          "correct": 412,
+          "n": 497,
+          "wilson_95": [
+            0.793378,
+            0.859523
+          ]
+        },
+        "inference": {
+          "accuracy": 0.511905,
+          "correct": 43,
+          "n": 84,
+          "wilson_95": [
+            0.406852,
+            0.615916
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.583333,
+          "correct": 21,
+          "n": 36,
+          "wilson_95": [
+            0.422003,
+            0.728594
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.805195,
+          "correct": 62,
+          "n": 77,
+          "wilson_95": [
+            0.703149,
+            0.878236
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-CABLESE/R2": {
+      "bootstrap_raw_95": [
+        0.76411,
+        0.825301
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 143,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.793948,
+        "correct": 551,
+        "n": 694,
+        "wilson_95": [
+          0.762277,
+          0.822383
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 0.944444,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.684211,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.722222,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 6,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 1.0,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.75,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.916667,
+          "raw_correct": 22,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.5,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.722222,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.7,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 1.0,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.636364,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 1.0,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.6875,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.8,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.772727,
+          "raw_correct": 17,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.736842,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.826087,
+          "raw_correct": 19,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.791667,
+          "raw_correct": 19,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.858586,
+          "correct": 170,
+          "n": 198,
+          "wilson_95": [
+            0.803208,
+            0.900314
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.756614,
+          "correct": 143,
+          "n": 189,
+          "wilson_95": [
+            0.69072,
+            0.812284
+          ]
+        },
+        "prose": {
+          "accuracy": 0.775244,
+          "correct": 238,
+          "n": 307,
+          "wilson_95": [
+            0.725314,
+            0.818371
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.849095,
+          "correct": 422,
+          "n": 497,
+          "wilson_95": [
+            0.814954,
+            0.87788
+          ]
+        },
+        "inference": {
+          "accuracy": 0.535714,
+          "correct": 45,
+          "n": 84,
+          "wilson_95": [
+            0.429847,
+            0.638458
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.611111,
+          "correct": 22,
+          "n": 36,
+          "wilson_95": [
+            0.448645,
+            0.752151
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.805195,
+          "correct": 62,
+          "n": 77,
+          "wilson_95": [
+            0.703149,
+            0.878236
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-CABLESE/R3": {
+      "bootstrap_raw_95": [
+        0.725155,
+        0.805755
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 162,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.766571,
+        "correct": 532,
+        "n": 694,
+        "wilson_95": [
+          0.733684,
+          0.796523
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.684211,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.722222,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 5,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.933333,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.916667,
+          "raw_correct": 22,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.9375,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.8,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 1.0,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 1.0,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.727273,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.545455,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 1.0,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.5,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.625,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 1.0,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.9,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.533333,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.545455,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.736842,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.869565,
+          "raw_correct": 20,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.875,
+          "raw_correct": 21,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.80303,
+          "correct": 159,
+          "n": 198,
+          "wilson_95": [
+            0.742094,
+            0.852432
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.820106,
+          "correct": 155,
+          "n": 189,
+          "wilson_95": [
+            0.759144,
+            0.868314
+          ]
+        },
+        "prose": {
+          "accuracy": 0.710098,
+          "correct": 218,
+          "n": 307,
+          "wilson_95": [
+            0.656996,
+            0.758007
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.814889,
+          "correct": 405,
+          "n": 497,
+          "wilson_95": [
+            0.778374,
+            0.846574
+          ]
+        },
+        "inference": {
+          "accuracy": 0.5,
+          "correct": 42,
+          "n": 84,
+          "wilson_95": [
+            0.395439,
+            0.604561
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.611111,
+          "correct": 22,
+          "n": 36,
+          "wilson_95": [
+            0.448645,
+            0.752151
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.818182,
+          "correct": 63,
+          "n": 77,
+          "wilson_95": [
+            0.717637,
+            0.888487
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-CABLESE/R4": {
+      "bootstrap_raw_95": [
+        0.737075,
+        0.801136
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 160,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.769452,
+        "correct": 534,
+        "n": 694,
+        "wilson_95": [
+          0.736685,
+          0.799254
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.684211,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 5,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 1.0,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.791667,
+          "raw_correct": 19,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.916667,
+          "raw_correct": 22,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.8125,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.7,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.636364,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.5,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.5625,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.7,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 18,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.526316,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.555556,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.826087,
+          "raw_correct": 19,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 20,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.843434,
+          "correct": 167,
+          "n": 198,
+          "wilson_95": [
+            0.786342,
+            0.887455
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.777778,
+          "correct": 147,
+          "n": 189,
+          "wilson_95": [
+            0.713307,
+            0.831182
+          ]
+        },
+        "prose": {
+          "accuracy": 0.716612,
+          "correct": 220,
+          "n": 307,
+          "wilson_95": [
+            0.663767,
+            0.764104
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.802817,
+          "correct": 399,
+          "n": 497,
+          "wilson_95": [
+            0.765572,
+            0.835417
+          ]
+        },
+        "inference": {
+          "accuracy": 0.511905,
+          "correct": 43,
+          "n": 84,
+          "wilson_95": [
+            0.406852,
+            0.615916
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.694444,
+          "correct": 25,
+          "n": 36,
+          "wilson_95": [
+            0.531437,
+            0.819955
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.87013,
+          "correct": 67,
+          "n": 77,
+          "wilson_95": [
+            0.777182,
+            0.927902
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-PLAIN/R1": {
+      "bootstrap_raw_95": [
+        0.650602,
+        0.768137
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 202,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.708934,
+        "correct": 492,
+        "n": 694,
+        "wilson_95": [
+          0.674061,
+          0.741506
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 1.0,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.842105,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 6,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.928571,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.933333,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 1.0,
+          "raw_correct": 24,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 20,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.615385,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.384615,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.214286,
+          "raw_correct": 3,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.555556,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.4,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.333333,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.4,
+          "raw_correct": 4,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.545455,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.363636,
+          "raw_correct": 4,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.538462,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.4,
+          "raw_correct": 2,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.428571,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.375,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.6,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.444444,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.444444,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.954545,
+          "raw_correct": 21,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.736842,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.826087,
+          "raw_correct": 19,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.708333,
+          "raw_correct": 17,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.919192,
+          "correct": 182,
+          "n": 198,
+          "wilson_95": [
+            0.872778,
+            0.94965
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.518519,
+          "correct": 98,
+          "n": 189,
+          "wilson_95": [
+            0.447627,
+            0.588672
+          ]
+        },
+        "prose": {
+          "accuracy": 0.690554,
+          "correct": 212,
+          "n": 307,
+          "wilson_95": [
+            0.636756,
+            0.739642
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.778672,
+          "correct": 387,
+          "n": 497,
+          "wilson_95": [
+            0.740114,
+            0.812955
+          ]
+        },
+        "inference": {
+          "accuracy": 0.404762,
+          "correct": 34,
+          "n": 84,
+          "wilson_95": [
+            0.306196,
+            0.511658
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.555556,
+          "correct": 20,
+          "n": 36,
+          "wilson_95": [
+            0.395811,
+            0.704587
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.662338,
+          "correct": 51,
+          "n": 77,
+          "wilson_95": [
+            0.551246,
+            0.758001
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-PLAIN/R2": {
+      "bootstrap_raw_95": [
+        0.665726,
+        0.783572
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 192,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.723343,
+        "correct": 502,
+        "n": 694,
+        "wilson_95": [
+          0.6889,
+          0.755327
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 1.0,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.736842,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.928571,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 1.0,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 1.0,
+          "raw_correct": 24,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.916667,
+          "raw_correct": 22,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.615385,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.384615,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.214286,
+          "raw_correct": 3,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.611111,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.466667,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.333333,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.5,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.545455,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.615385,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.727273,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.5,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.933333,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.3125,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.6,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.444444,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.555556,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.954545,
+          "raw_correct": 21,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.578947,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.428571,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.869565,
+          "raw_correct": 20,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.708333,
+          "raw_correct": 17,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.929293,
+          "correct": 184,
+          "n": 198,
+          "wilson_95": [
+            0.884828,
+            0.957417
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.544974,
+          "correct": 103,
+          "n": 189,
+          "wilson_95": [
+            0.473788,
+            0.614367
+          ]
+        },
+        "prose": {
+          "accuracy": 0.700326,
+          "correct": 215,
+          "n": 307,
+          "wilson_95": [
+            0.646862,
+            0.748838
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.792757,
+          "correct": 394,
+          "n": 497,
+          "wilson_95": [
+            0.754942,
+            0.82608
+          ]
+        },
+        "inference": {
+          "accuracy": 0.440476,
+          "correct": 37,
+          "n": 84,
+          "wilson_95": [
+            0.33923,
+            0.546929
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.583333,
+          "correct": 21,
+          "n": 36,
+          "wilson_95": [
+            0.422003,
+            0.728594
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.649351,
+          "correct": 50,
+          "n": 77,
+          "wilson_95": [
+            0.537994,
+            0.746513
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-PLAIN/R3": {
+      "bootstrap_raw_95": [
+        0.70901,
+        0.8125
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 166,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.760807,
+        "correct": 528,
+        "n": 694,
+        "wilson_95": [
+          0.727688,
+          0.791054
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 1.0,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.789474,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.928571,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.933333,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.958333,
+          "raw_correct": 23,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.916667,
+          "raw_correct": 22,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.538462,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.285714,
+          "raw_correct": 4,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 14,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.333333,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.5,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 1.0,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.4375,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.6,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.444444,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.954545,
+          "raw_correct": 21,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.631579,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.5,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.869565,
+          "raw_correct": 20,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.791667,
+          "raw_correct": 19,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.929293,
+          "correct": 184,
+          "n": 198,
+          "wilson_95": [
+            0.884828,
+            0.957417
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.640212,
+          "correct": 121,
+          "n": 189,
+          "wilson_95": [
+            0.569623,
+            0.705214
+          ]
+        },
+        "prose": {
+          "accuracy": 0.726384,
+          "correct": 223,
+          "n": 307,
+          "wilson_95": [
+            0.673948,
+            0.773226
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.820926,
+          "correct": 408,
+          "n": 497,
+          "wilson_95": [
+            0.784795,
+            0.852133
+          ]
+        },
+        "inference": {
+          "accuracy": 0.440476,
+          "correct": 37,
+          "n": 84,
+          "wilson_95": [
+            0.33923,
+            0.546929
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.583333,
+          "correct": 21,
+          "n": 36,
+          "wilson_95": [
+            0.422003,
+            0.728594
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.805195,
+          "correct": 62,
+          "n": 77,
+          "wilson_95": [
+            0.703149,
+            0.878236
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-PLAIN/R4": {
+      "bootstrap_raw_95": [
+        0.661169,
+        0.776836
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 196,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.717579,
+        "correct": 498,
+        "n": 694,
+        "wilson_95": [
+          0.68296,
+          0.749803
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 1.0,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.789474,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.928571,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.933333,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 1.0,
+          "raw_correct": 24,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.916667,
+          "raw_correct": 22,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.384615,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.214286,
+          "raw_correct": 3,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.611111,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.533333,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.333333,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.4,
+          "raw_correct": 4,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.545455,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.272727,
+          "raw_correct": 3,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 0.916667,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.538462,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.3125,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.6,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.444444,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.555556,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.954545,
+          "raw_correct": 21,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.684211,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.5,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.826087,
+          "raw_correct": 19,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.708333,
+          "raw_correct": 17,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.924242,
+          "correct": 183,
+          "n": 198,
+          "wilson_95": [
+            0.878781,
+            0.953555
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.529101,
+          "correct": 100,
+          "n": 189,
+          "wilson_95": [
+            0.458068,
+            0.598973
+          ]
+        },
+        "prose": {
+          "accuracy": 0.700326,
+          "correct": 215,
+          "n": 307,
+          "wilson_95": [
+            0.646862,
+            0.748838
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.78672,
+          "correct": 391,
+          "n": 497,
+          "wilson_95": [
+            0.74858,
+            0.820463
+          ]
+        },
+        "inference": {
+          "accuracy": 0.416667,
+          "correct": 35,
+          "n": 84,
+          "wilson_95": [
+            0.317148,
+            0.523474
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.527778,
+          "correct": 19,
+          "n": 36,
+          "wilson_95": [
+            0.370059,
+            0.68014
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.688312,
+          "correct": 53,
+          "n": 77,
+          "wilson_95": [
+            0.578,
+            0.780727
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-CABLESE/W1": {
+      "bootstrap_raw_95": [
+        0.755725,
+        0.832624
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 143,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.793948,
+        "correct": 551,
+        "n": 694,
+        "wilson_95": [
+          0.762277,
+          0.822383
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 10,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.789474,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.555556,
+          "raw_correct": 10,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.791667,
+          "raw_correct": 19,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.875,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.933333,
+          "raw_correct": 14,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.7,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 1.0,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 1.0,
+          "raw_correct": 14,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.6,
+          "raw_correct": 3,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.727273,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.428571,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.375,
+          "raw_correct": 3,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.5625,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.7,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.533333,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 20,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.684211,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.444444,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.913043,
+          "raw_correct": 21,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 20,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.782828,
+          "correct": 155,
+          "n": 198,
+          "wilson_95": [
+            0.720309,
+            0.834582
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.878307,
+          "correct": 166,
+          "n": 189,
+          "wilson_95": [
+            0.824017,
+            0.917525
+          ]
+        },
+        "prose": {
+          "accuracy": 0.749186,
+          "correct": 230,
+          "n": 307,
+          "wilson_95": [
+            0.697819,
+            0.794394
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.818913,
+          "correct": 407,
+          "n": 497,
+          "wilson_95": [
+            0.782653,
+            0.850282
+          ]
+        },
+        "inference": {
+          "accuracy": 0.702381,
+          "correct": 59,
+          "n": 84,
+          "wilson_95": [
+            0.597509,
+            0.789552
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.75,
+          "correct": 27,
+          "n": 36,
+          "wilson_95": [
+            0.589295,
+            0.862495
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.753247,
+          "correct": 58,
+          "n": 77,
+          "wilson_95": [
+            0.646466,
+            0.835959
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-CABLESE/W2": {
+      "bootstrap_raw_95": [
+        0.764881,
+        0.834821
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 139,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.799712,
+        "correct": 555,
+        "n": 694,
+        "wilson_95": [
+          0.768322,
+          0.827801
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.789474,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.611111,
+          "raw_correct": 11,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.75,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.708333,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.875,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 1.0,
+          "raw_correct": 15,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.8,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 1.0,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.928571,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.533333,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.6875,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.7,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.772727,
+          "raw_correct": 17,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.736842,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.444444,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 1.0,
+          "raw_correct": 23,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.708333,
+          "raw_correct": 17,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.813131,
+          "correct": 161,
+          "n": 198,
+          "wilson_95": [
+            0.753066,
+            0.861277
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.857143,
+          "correct": 162,
+          "n": 189,
+          "wilson_95": [
+            0.80013,
+            0.899927
+          ]
+        },
+        "prose": {
+          "accuracy": 0.7557,
+          "correct": 232,
+          "n": 307,
+          "wilson_95": [
+            0.70467,
+            0.80041
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.828974,
+          "correct": 412,
+          "n": 497,
+          "wilson_95": [
+            0.793378,
+            0.859523
+          ]
+        },
+        "inference": {
+          "accuracy": 0.702381,
+          "correct": 59,
+          "n": 84,
+          "wilson_95": [
+            0.597509,
+            0.789552
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.666667,
+          "correct": 24,
+          "n": 36,
+          "wilson_95": [
+            0.50334,
+            0.797854
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.779221,
+          "correct": 60,
+          "n": 77,
+          "wilson_95": [
+            0.674569,
+            0.857336
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-CABLESE/W3": {
+      "bootstrap_raw_95": [
+        0.856174,
+        0.907311
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 82,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.881844,
+        "correct": 612,
+        "n": 694,
+        "wilson_95": [
+          0.855701,
+          0.903784
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 1.0,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.894737,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.722222,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.928571,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.933333,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 1.0,
+          "raw_correct": 24,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 20,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 14,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.7,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 1.0,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 1.0,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.875,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.9,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 1.0,
+          "raw_correct": 22,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.842105,
+          "raw_correct": 16,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.956522,
+          "raw_correct": 22,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.875,
+          "raw_correct": 21,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.919192,
+          "correct": 182,
+          "n": 198,
+          "wilson_95": [
+            0.872778,
+            0.94965
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.846561,
+          "correct": 160,
+          "n": 189,
+          "wilson_95": [
+            0.788323,
+            0.890992
+          ]
+        },
+        "prose": {
+          "accuracy": 0.879479,
+          "correct": 270,
+          "n": 307,
+          "wilson_95": [
+            0.838294,
+            0.911285
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.921529,
+          "correct": 458,
+          "n": 497,
+          "wilson_95": [
+            0.894524,
+            0.942068
+          ]
+        },
+        "inference": {
+          "accuracy": 0.738095,
+          "correct": 62,
+          "n": 84,
+          "wilson_95": [
+            0.635151,
+            0.820215
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.666667,
+          "correct": 24,
+          "n": 36,
+          "wilson_95": [
+            0.50334,
+            0.797854
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.883117,
+          "correct": 68,
+          "n": 77,
+          "wilson_95": [
+            0.792549,
+            0.937274
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-PLAIN/W1": {
+      "bootstrap_raw_95": [
+        0.677661,
+        0.788
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 187,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.730548,
+        "correct": 507,
+        "n": 694,
+        "wilson_95": [
+          0.696336,
+          0.762221
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 1.0,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.894737,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.944444,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.928571,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 1.0,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.958333,
+          "raw_correct": 23,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.875,
+          "raw_correct": 21,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.428571,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.611111,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.266667,
+          "raw_correct": 4,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.3,
+          "raw_correct": 3,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.181818,
+          "raw_correct": 2,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.428571,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.461538,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.5625,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.8,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.555556,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.4,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 18,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.789474,
+          "raw_correct": 15,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.782609,
+          "raw_correct": 18,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.541667,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.944444,
+          "correct": 187,
+          "n": 198,
+          "wilson_95": [
+            0.903273,
+            0.968699
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.560847,
+          "correct": 106,
+          "n": 189,
+          "wilson_95": [
+            0.489579,
+            0.62969
+          ]
+        },
+        "prose": {
+          "accuracy": 0.697068,
+          "correct": 214,
+          "n": 307,
+          "wilson_95": [
+            0.643491,
+            0.745775
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.78672,
+          "correct": 391,
+          "n": 497,
+          "wilson_95": [
+            0.74858,
+            0.820463
+          ]
+        },
+        "inference": {
+          "accuracy": 0.535714,
+          "correct": 45,
+          "n": 84,
+          "wilson_95": [
+            0.429847,
+            0.638458
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.583333,
+          "correct": 21,
+          "n": 36,
+          "wilson_95": [
+            0.422003,
+            0.728594
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.649351,
+          "correct": 50,
+          "n": 77,
+          "wilson_95": [
+            0.537994,
+            0.746513
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-PLAIN/W2": {
+      "bootstrap_raw_95": [
+        0.671091,
+        0.785401
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 189,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.727666,
+        "correct": 505,
+        "n": 694,
+        "wilson_95": [
+          0.69336,
+          0.759465
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 1.0,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.842105,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.944444,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.944444,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.928571,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 1.0,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 1.0,
+          "raw_correct": 24,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.791667,
+          "raw_correct": 19,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.538462,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.428571,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.533333,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.5,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.2,
+          "raw_correct": 3,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.6,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.357143,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 0.75,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.461538,
+          "raw_correct": 6,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 1.0,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.615385,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.636364,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.545455,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.5,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.5625,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.5,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.555556,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.466667,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 20,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.736842,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.869565,
+          "raw_correct": 20,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.75,
+          "raw_correct": 18,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.939394,
+          "correct": 186,
+          "n": 198,
+          "wilson_95": [
+            0.897068,
+            0.964994
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.571429,
+          "correct": 108,
+          "n": 189,
+          "wilson_95": [
+            0.500145,
+            0.639866
+          ]
+        },
+        "prose": {
+          "accuracy": 0.687296,
+          "correct": 211,
+          "n": 307,
+          "wilson_95": [
+            0.633393,
+            0.73657
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.756539,
+          "correct": 376,
+          "n": 497,
+          "wilson_95": [
+            0.716934,
+            0.792209
+          ]
+        },
+        "inference": {
+          "accuracy": 0.547619,
+          "correct": 46,
+          "n": 84,
+          "wilson_95": [
+            0.44143,
+            0.649643
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.694444,
+          "correct": 25,
+          "n": 36,
+          "wilson_95": [
+            0.531437,
+            0.819955
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.753247,
+          "correct": 58,
+          "n": 77,
+          "wilson_95": [
+            0.646466,
+            0.835959
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-PLAIN/W3": {
+      "bootstrap_raw_95": [
+        0.845845,
+        0.924609
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 77,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+      "overall_raw": {
+        "accuracy": 0.889049,
+        "correct": 617,
+        "n": 694,
+        "wilson_95": [
+          0.863507,
+          0.910308
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 1.0,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.894737,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 1.0,
+          "raw_correct": 18,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 1.0,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 1.0,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.958333,
+          "raw_correct": 23,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.875,
+          "raw_correct": 21,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.769231,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.615385,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.933333,
+          "raw_correct": 14,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 15,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.333333,
+          "raw_correct": 5,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.8,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 1.0,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.928571,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 1.0,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.636364,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.714286,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 1.0,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 1.0,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.875,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 1.0,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 1.0,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 20,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.842105,
+          "raw_correct": 16,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 1.0,
+          "raw_correct": 23,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.958333,
+          "raw_correct": 23,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.959596,
+          "correct": 190,
+          "n": 198,
+          "wilson_95": [
+            0.922311,
+            0.979387
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.793651,
+          "correct": 150,
+          "n": 189,
+          "wilson_95": [
+            0.730386,
+            0.845217
+          ]
+        },
+        "prose": {
+          "accuracy": 0.90228,
+          "correct": 277,
+          "n": 307,
+          "wilson_95": [
+            0.863927,
+            0.930691
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.935614,
+          "correct": 465,
+          "n": 497,
+          "wilson_95": [
+            0.910519,
+            0.954026
+          ]
+        },
+        "inference": {
+          "accuracy": 0.72619,
+          "correct": 61,
+          "n": 84,
+          "wilson_95": [
+            0.622526,
+            0.810072
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.75,
+          "correct": 27,
+          "n": 36,
+          "wilson_95": [
+            0.589295,
+            0.862495
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.831169,
+          "correct": 64,
+          "n": 77,
+          "wilson_95": [
+            0.732271,
+            0.898593
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    }
+  },
+  "direction_a": {
+    "R1": {
+      "cablese_accuracy": 0.775216,
+      "model": "google/gemma-4-31b-it",
+      "plain_accuracy": 0.708934,
+      "recovery_ratio": 1.093495,
+      "reference_glm_recovery_ratio": 0.997
+    },
+    "R2": {
+      "cablese_accuracy": 0.793948,
+      "model": "qwen/qwen3.8-27b",
+      "plain_accuracy": 0.723343,
+      "recovery_ratio": 1.097609,
+      "reference_glm_recovery_ratio": 0.997
+    },
+    "R3": {
+      "cablese_accuracy": 0.766571,
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "plain_accuracy": 0.760807,
+      "recovery_ratio": 1.007576,
+      "reference_glm_recovery_ratio": 0.997
+    },
+    "R4": {
+      "cablese_accuracy": 0.769452,
+      "model": "google/gemma-4-26b-a4b-it",
+      "plain_accuracy": 0.717579,
+      "recovery_ratio": 1.072289,
+      "reference_glm_recovery_ratio": 0.997
+    }
+  },
+  "direction_b": {
+    "W1": {
+      "cablese_accuracy": 0.793948,
+      "model": "google/gemma-4-31b-it",
+      "plain_accuracy": 0.730548,
+      "recovery_ratio": 1.086784,
+      "savings_pct": 47.679552,
+      "writer_record_tokens": {
+        "cablese_approx_tokens_total": 4859,
+        "per_passage": [
+          {
+            "cablese_approx_tokens": 341,
+            "plain_approx_tokens": 626,
+            "task_id": "fact_long_01"
+          },
+          {
+            "cablese_approx_tokens": 254,
+            "plain_approx_tokens": 549,
+            "task_id": "fact_long_02"
+          },
+          {
+            "cablese_approx_tokens": 260,
+            "plain_approx_tokens": 541,
+            "task_id": "fact_long_03"
+          },
+          {
+            "cablese_approx_tokens": 295,
+            "plain_approx_tokens": 526,
+            "task_id": "fact_long_04"
+          },
+          {
+            "cablese_approx_tokens": 262,
+            "plain_approx_tokens": 476,
+            "task_id": "fact_long_05"
+          },
+          {
+            "cablese_approx_tokens": 291,
+            "plain_approx_tokens": 533,
+            "task_id": "fact_long_06"
+          },
+          {
+            "cablese_approx_tokens": 162,
+            "plain_approx_tokens": 294,
+            "task_id": "fact_med_01"
+          },
+          {
+            "cablese_approx_tokens": 164,
+            "plain_approx_tokens": 283,
+            "task_id": "fact_med_02"
+          },
+          {
+            "cablese_approx_tokens": 143,
+            "plain_approx_tokens": 246,
+            "task_id": "fact_med_03"
+          },
+          {
+            "cablese_approx_tokens": 170,
+            "plain_approx_tokens": 320,
+            "task_id": "fact_med_04"
+          },
+          {
+            "cablese_approx_tokens": 162,
+            "plain_approx_tokens": 286,
+            "task_id": "fact_med_05"
+          },
+          {
+            "cablese_approx_tokens": 162,
+            "plain_approx_tokens": 308,
+            "task_id": "fact_med_06"
+          },
+          {
+            "cablese_approx_tokens": 31,
+            "plain_approx_tokens": 86,
+            "task_id": "for_01"
+          },
+          {
+            "cablese_approx_tokens": 37,
+            "plain_approx_tokens": 110,
+            "task_id": "for_02"
+          },
+          {
+            "cablese_approx_tokens": 34,
+            "plain_approx_tokens": 91,
+            "task_id": "for_03"
+          },
+          {
+            "cablese_approx_tokens": 36,
+            "plain_approx_tokens": 97,
+            "task_id": "for_04"
+          },
+          {
+            "cablese_approx_tokens": 42,
+            "plain_approx_tokens": 99,
+            "task_id": "for_05"
+          },
+          {
+            "cablese_approx_tokens": 45,
+            "plain_approx_tokens": 99,
+            "task_id": "for_06"
+          },
+          {
+            "cablese_approx_tokens": 43,
+            "plain_approx_tokens": 96,
+            "task_id": "for_07"
+          },
+          {
+            "cablese_approx_tokens": 39,
+            "plain_approx_tokens": 86,
+            "task_id": "for_08"
+          },
+          {
+            "cablese_approx_tokens": 75,
+            "plain_approx_tokens": 140,
+            "task_id": "for_09"
+          },
+          {
+            "cablese_approx_tokens": 65,
+            "plain_approx_tokens": 95,
+            "task_id": "for_10"
+          },
+          {
+            "cablese_approx_tokens": 71,
+            "plain_approx_tokens": 116,
+            "task_id": "for_11"
+          },
+          {
+            "cablese_approx_tokens": 43,
+            "plain_approx_tokens": 100,
+            "task_id": "for_12"
+          },
+          {
+            "cablese_approx_tokens": 44,
+            "plain_approx_tokens": 108,
+            "task_id": "for_13"
+          },
+          {
+            "cablese_approx_tokens": 58,
+            "plain_approx_tokens": 124,
+            "task_id": "for_14"
+          },
+          {
+            "cablese_approx_tokens": 53,
+            "plain_approx_tokens": 118,
+            "task_id": "task_01"
+          },
+          {
+            "cablese_approx_tokens": 57,
+            "plain_approx_tokens": 110,
+            "task_id": "task_02"
+          },
+          {
+            "cablese_approx_tokens": 64,
+            "plain_approx_tokens": 103,
+            "task_id": "task_03"
+          },
+          {
+            "cablese_approx_tokens": 54,
+            "plain_approx_tokens": 107,
+            "task_id": "task_04"
+          },
+          {
+            "cablese_approx_tokens": 54,
+            "plain_approx_tokens": 120,
+            "task_id": "task_05"
+          },
+          {
+            "cablese_approx_tokens": 58,
+            "plain_approx_tokens": 96,
+            "task_id": "task_06"
+          },
+          {
+            "cablese_approx_tokens": 53,
+            "plain_approx_tokens": 113,
+            "task_id": "task_07"
+          },
+          {
+            "cablese_approx_tokens": 57,
+            "plain_approx_tokens": 98,
+            "task_id": "task_08"
+          },
+          {
+            "cablese_approx_tokens": 69,
+            "plain_approx_tokens": 119,
+            "task_id": "task_09"
+          },
+          {
+            "cablese_approx_tokens": 62,
+            "plain_approx_tokens": 116,
+            "task_id": "task_10"
+          },
+          {
+            "cablese_approx_tokens": 74,
+            "plain_approx_tokens": 124,
+            "task_id": "task_11"
+          },
+          {
+            "cablese_approx_tokens": 65,
+            "plain_approx_tokens": 150,
+            "task_id": "task_12"
+          },
+          {
+            "cablese_approx_tokens": 69,
+            "plain_approx_tokens": 125,
+            "task_id": "task_13"
+          },
+          {
+            "cablese_approx_tokens": 70,
+            "plain_approx_tokens": 114,
+            "task_id": "task_14"
+          },
+          {
+            "cablese_approx_tokens": 59,
+            "plain_approx_tokens": 105,
+            "task_id": "task_15"
+          },
+          {
+            "cablese_approx_tokens": 79,
+            "plain_approx_tokens": 130,
+            "task_id": "task_16"
+          },
+          {
+            "cablese_approx_tokens": 64,
+            "plain_approx_tokens": 99,
+            "task_id": "task_17"
+          },
+          {
+            "cablese_approx_tokens": 69,
+            "plain_approx_tokens": 123,
+            "task_id": "task_18"
+          },
+          {
+            "cablese_approx_tokens": 57,
+            "plain_approx_tokens": 122,
+            "task_id": "task_19"
+          },
+          {
+            "cablese_approx_tokens": 65,
+            "plain_approx_tokens": 136,
+            "task_id": "task_20"
+          },
+          {
+            "cablese_approx_tokens": 76,
+            "plain_approx_tokens": 147,
+            "task_id": "task_21"
+          },
+          {
+            "cablese_approx_tokens": 66,
+            "plain_approx_tokens": 149,
+            "task_id": "task_22"
+          },
+          {
+            "cablese_approx_tokens": 68,
+            "plain_approx_tokens": 121,
+            "task_id": "task_23"
+          },
+          {
+            "cablese_approx_tokens": 68,
+            "plain_approx_tokens": 107,
+            "task_id": "task_24"
+          }
+        ],
+        "plain_approx_tokens_total": 9287
+      }
+    },
+    "W2": {
+      "cablese_accuracy": 0.799712,
+      "model": "qwen/qwen3.8-27b",
+      "plain_accuracy": 0.727666,
+      "recovery_ratio": 1.09901,
+      "savings_pct": 47.407113,
+      "writer_record_tokens": {
+        "cablese_approx_tokens_total": 5294,
+        "per_passage": [
+          {
+            "cablese_approx_tokens": 366,
+            "plain_approx_tokens": 631,
+            "task_id": "fact_long_01"
+          },
+          {
+            "cablese_approx_tokens": 395,
+            "plain_approx_tokens": 574,
+            "task_id": "fact_long_02"
+          },
+          {
+            "cablese_approx_tokens": 321,
+            "plain_approx_tokens": 583,
+            "task_id": "fact_long_03"
+          },
+          {
+            "cablese_approx_tokens": 335,
+            "plain_approx_tokens": 487,
+            "task_id": "fact_long_04"
+          },
+          {
+            "cablese_approx_tokens": 279,
+            "plain_approx_tokens": 499,
+            "task_id": "fact_long_05"
+          },
+          {
+            "cablese_approx_tokens": 313,
+            "plain_approx_tokens": 548,
+            "task_id": "fact_long_06"
+          },
+          {
+            "cablese_approx_tokens": 173,
+            "plain_approx_tokens": 293,
+            "task_id": "fact_med_01"
+          },
+          {
+            "cablese_approx_tokens": 155,
+            "plain_approx_tokens": 303,
+            "task_id": "fact_med_02"
+          },
+          {
+            "cablese_approx_tokens": 156,
+            "plain_approx_tokens": 272,
+            "task_id": "fact_med_03"
+          },
+          {
+            "cablese_approx_tokens": 152,
+            "plain_approx_tokens": 317,
+            "task_id": "fact_med_04"
+          },
+          {
+            "cablese_approx_tokens": 170,
+            "plain_approx_tokens": 283,
+            "task_id": "fact_med_05"
+          },
+          {
+            "cablese_approx_tokens": 171,
+            "plain_approx_tokens": 340,
+            "task_id": "fact_med_06"
+          },
+          {
+            "cablese_approx_tokens": 40,
+            "plain_approx_tokens": 118,
+            "task_id": "for_01"
+          },
+          {
+            "cablese_approx_tokens": 52,
+            "plain_approx_tokens": 130,
+            "task_id": "for_02"
+          },
+          {
+            "cablese_approx_tokens": 42,
+            "plain_approx_tokens": 113,
+            "task_id": "for_03"
+          },
+          {
+            "cablese_approx_tokens": 46,
+            "plain_approx_tokens": 128,
+            "task_id": "for_04"
+          },
+          {
+            "cablese_approx_tokens": 49,
+            "plain_approx_tokens": 125,
+            "task_id": "for_05"
+          },
+          {
+            "cablese_approx_tokens": 51,
+            "plain_approx_tokens": 149,
+            "task_id": "for_06"
+          },
+          {
+            "cablese_approx_tokens": 64,
+            "plain_approx_tokens": 121,
+            "task_id": "for_07"
+          },
+          {
+            "cablese_approx_tokens": 51,
+            "plain_approx_tokens": 109,
+            "task_id": "for_08"
+          },
+          {
+            "cablese_approx_tokens": 97,
+            "plain_approx_tokens": 159,
+            "task_id": "for_09"
+          },
+          {
+            "cablese_approx_tokens": 71,
+            "plain_approx_tokens": 116,
+            "task_id": "for_10"
+          },
+          {
+            "cablese_approx_tokens": 71,
+            "plain_approx_tokens": 131,
+            "task_id": "for_11"
+          },
+          {
+            "cablese_approx_tokens": 44,
+            "plain_approx_tokens": 142,
+            "task_id": "for_12"
+          },
+          {
+            "cablese_approx_tokens": 57,
+            "plain_approx_tokens": 145,
+            "task_id": "for_13"
+          },
+          {
+            "cablese_approx_tokens": 72,
+            "plain_approx_tokens": 153,
+            "task_id": "for_14"
+          },
+          {
+            "cablese_approx_tokens": 52,
+            "plain_approx_tokens": 123,
+            "task_id": "task_01"
+          },
+          {
+            "cablese_approx_tokens": 55,
+            "plain_approx_tokens": 121,
+            "task_id": "task_02"
+          },
+          {
+            "cablese_approx_tokens": 62,
+            "plain_approx_tokens": 109,
+            "task_id": "task_03"
+          },
+          {
+            "cablese_approx_tokens": 56,
+            "plain_approx_tokens": 128,
+            "task_id": "task_04"
+          },
+          {
+            "cablese_approx_tokens": 64,
+            "plain_approx_tokens": 121,
+            "task_id": "task_05"
+          },
+          {
+            "cablese_approx_tokens": 59,
+            "plain_approx_tokens": 126,
+            "task_id": "task_06"
+          },
+          {
+            "cablese_approx_tokens": 51,
+            "plain_approx_tokens": 125,
+            "task_id": "task_07"
+          },
+          {
+            "cablese_approx_tokens": 54,
+            "plain_approx_tokens": 117,
+            "task_id": "task_08"
+          },
+          {
+            "cablese_approx_tokens": 63,
+            "plain_approx_tokens": 138,
+            "task_id": "task_09"
+          },
+          {
+            "cablese_approx_tokens": 59,
+            "plain_approx_tokens": 126,
+            "task_id": "task_10"
+          },
+          {
+            "cablese_approx_tokens": 77,
+            "plain_approx_tokens": 128,
+            "task_id": "task_11"
+          },
+          {
+            "cablese_approx_tokens": 67,
+            "plain_approx_tokens": 145,
+            "task_id": "task_12"
+          },
+          {
+            "cablese_approx_tokens": 73,
+            "plain_approx_tokens": 141,
+            "task_id": "task_13"
+          },
+          {
+            "cablese_approx_tokens": 57,
+            "plain_approx_tokens": 132,
+            "task_id": "task_14"
+          },
+          {
+            "cablese_approx_tokens": 64,
+            "plain_approx_tokens": 139,
+            "task_id": "task_15"
+          },
+          {
+            "cablese_approx_tokens": 76,
+            "plain_approx_tokens": 145,
+            "task_id": "task_16"
+          },
+          {
+            "cablese_approx_tokens": 56,
+            "plain_approx_tokens": 122,
+            "task_id": "task_17"
+          },
+          {
+            "cablese_approx_tokens": 64,
+            "plain_approx_tokens": 130,
+            "task_id": "task_18"
+          },
+          {
+            "cablese_approx_tokens": 63,
+            "plain_approx_tokens": 119,
+            "task_id": "task_19"
+          },
+          {
+            "cablese_approx_tokens": 63,
+            "plain_approx_tokens": 146,
+            "task_id": "task_20"
+          },
+          {
+            "cablese_approx_tokens": 64,
+            "plain_approx_tokens": 131,
+            "task_id": "task_21"
+          },
+          {
+            "cablese_approx_tokens": 60,
+            "plain_approx_tokens": 154,
+            "task_id": "task_22"
+          },
+          {
+            "cablese_approx_tokens": 77,
+            "plain_approx_tokens": 116,
+            "task_id": "task_23"
+          },
+          {
+            "cablese_approx_tokens": 65,
+            "plain_approx_tokens": 115,
+            "task_id": "task_24"
+          }
+        ],
+        "plain_approx_tokens_total": 10066
+      }
+    },
+    "W3": {
+      "cablese_accuracy": 0.881844,
+      "model": "openai/gpt-5-mini",
+      "plain_accuracy": 0.889049,
+      "recovery_ratio": 0.991896,
+      "savings_pct": 26.682022,
+      "writer_record_tokens": {
+        "cablese_approx_tokens_total": 6048,
+        "per_passage": [
+          {
+            "cablese_approx_tokens": 464,
+            "plain_approx_tokens": 577,
+            "task_id": "fact_long_01"
+          },
+          {
+            "cablese_approx_tokens": 402,
+            "plain_approx_tokens": 512,
+            "task_id": "fact_long_02"
+          },
+          {
+            "cablese_approx_tokens": 395,
+            "plain_approx_tokens": 523,
+            "task_id": "fact_long_03"
+          },
+          {
+            "cablese_approx_tokens": 374,
+            "plain_approx_tokens": 469,
+            "task_id": "fact_long_04"
+          },
+          {
+            "cablese_approx_tokens": 325,
+            "plain_approx_tokens": 460,
+            "task_id": "fact_long_05"
+          },
+          {
+            "cablese_approx_tokens": 359,
+            "plain_approx_tokens": 465,
+            "task_id": "fact_long_06"
+          },
+          {
+            "cablese_approx_tokens": 203,
+            "plain_approx_tokens": 256,
+            "task_id": "fact_med_01"
+          },
+          {
+            "cablese_approx_tokens": 196,
+            "plain_approx_tokens": 253,
+            "task_id": "fact_med_02"
+          },
+          {
+            "cablese_approx_tokens": 188,
+            "plain_approx_tokens": 228,
+            "task_id": "fact_med_03"
+          },
+          {
+            "cablese_approx_tokens": 197,
+            "plain_approx_tokens": 266,
+            "task_id": "fact_med_04"
+          },
+          {
+            "cablese_approx_tokens": 189,
+            "plain_approx_tokens": 248,
+            "task_id": "fact_med_05"
+          },
+          {
+            "cablese_approx_tokens": 202,
+            "plain_approx_tokens": 260,
+            "task_id": "fact_med_06"
+          },
+          {
+            "cablese_approx_tokens": 41,
+            "plain_approx_tokens": 68,
+            "task_id": "for_01"
+          },
+          {
+            "cablese_approx_tokens": 50,
+            "plain_approx_tokens": 90,
+            "task_id": "for_02"
+          },
+          {
+            "cablese_approx_tokens": 41,
+            "plain_approx_tokens": 64,
+            "task_id": "for_03"
+          },
+          {
+            "cablese_approx_tokens": 48,
+            "plain_approx_tokens": 80,
+            "task_id": "for_04"
+          },
+          {
+            "cablese_approx_tokens": 57,
+            "plain_approx_tokens": 81,
+            "task_id": "for_05"
+          },
+          {
+            "cablese_approx_tokens": 66,
+            "plain_approx_tokens": 84,
+            "task_id": "for_06"
+          },
+          {
+            "cablese_approx_tokens": 58,
+            "plain_approx_tokens": 103,
+            "task_id": "for_07"
+          },
+          {
+            "cablese_approx_tokens": 56,
+            "plain_approx_tokens": 77,
+            "task_id": "for_08"
+          },
+          {
+            "cablese_approx_tokens": 96,
+            "plain_approx_tokens": 117,
+            "task_id": "for_09"
+          },
+          {
+            "cablese_approx_tokens": 68,
+            "plain_approx_tokens": 97,
+            "task_id": "for_10"
+          },
+          {
+            "cablese_approx_tokens": 68,
+            "plain_approx_tokens": 104,
+            "task_id": "for_11"
+          },
+          {
+            "cablese_approx_tokens": 63,
+            "plain_approx_tokens": 138,
+            "task_id": "for_12"
+          },
+          {
+            "cablese_approx_tokens": 56,
+            "plain_approx_tokens": 94,
+            "task_id": "for_13"
+          },
+          {
+            "cablese_approx_tokens": 71,
+            "plain_approx_tokens": 124,
+            "task_id": "for_14"
+          },
+          {
+            "cablese_approx_tokens": 63,
+            "plain_approx_tokens": 91,
+            "task_id": "task_01"
+          },
+          {
+            "cablese_approx_tokens": 53,
+            "plain_approx_tokens": 96,
+            "task_id": "task_02"
+          },
+          {
+            "cablese_approx_tokens": 59,
+            "plain_approx_tokens": 92,
+            "task_id": "task_03"
+          },
+          {
+            "cablese_approx_tokens": 66,
+            "plain_approx_tokens": 100,
+            "task_id": "task_04"
+          },
+          {
+            "cablese_approx_tokens": 63,
+            "plain_approx_tokens": 92,
+            "task_id": "task_05"
+          },
+          {
+            "cablese_approx_tokens": 78,
+            "plain_approx_tokens": 97,
+            "task_id": "task_06"
+          },
+          {
+            "cablese_approx_tokens": 67,
+            "plain_approx_tokens": 99,
+            "task_id": "task_07"
+          },
+          {
+            "cablese_approx_tokens": 61,
+            "plain_approx_tokens": 93,
+            "task_id": "task_08"
+          },
+          {
+            "cablese_approx_tokens": 73,
+            "plain_approx_tokens": 100,
+            "task_id": "task_09"
+          },
+          {
+            "cablese_approx_tokens": 74,
+            "plain_approx_tokens": 97,
+            "task_id": "task_10"
+          },
+          {
+            "cablese_approx_tokens": 77,
+            "plain_approx_tokens": 100,
+            "task_id": "task_11"
+          },
+          {
+            "cablese_approx_tokens": 73,
+            "plain_approx_tokens": 98,
+            "task_id": "task_12"
+          },
+          {
+            "cablese_approx_tokens": 72,
+            "plain_approx_tokens": 106,
+            "task_id": "task_13"
+          },
+          {
+            "cablese_approx_tokens": 68,
+            "plain_approx_tokens": 102,
+            "task_id": "task_14"
+          },
+          {
+            "cablese_approx_tokens": 63,
+            "plain_approx_tokens": 98,
+            "task_id": "task_15"
+          },
+          {
+            "cablese_approx_tokens": 76,
+            "plain_approx_tokens": 107,
+            "task_id": "task_16"
+          },
+          {
+            "cablese_approx_tokens": 72,
+            "plain_approx_tokens": 93,
+            "task_id": "task_17"
+          },
+          {
+            "cablese_approx_tokens": 72,
+            "plain_approx_tokens": 101,
+            "task_id": "task_18"
+          },
+          {
+            "cablese_approx_tokens": 82,
+            "plain_approx_tokens": 106,
+            "task_id": "task_19"
+          },
+          {
+            "cablese_approx_tokens": 75,
+            "plain_approx_tokens": 115,
+            "task_id": "task_20"
+          },
+          {
+            "cablese_approx_tokens": 88,
+            "plain_approx_tokens": 111,
+            "task_id": "task_21"
+          },
+          {
+            "cablese_approx_tokens": 84,
+            "plain_approx_tokens": 107,
+            "task_id": "task_22"
+          },
+          {
+            "cablese_approx_tokens": 84,
+            "plain_approx_tokens": 111,
+            "task_id": "task_23"
+          },
+          {
+            "cablese_approx_tokens": 72,
+            "plain_approx_tokens": 99,
+            "task_id": "task_24"
+          }
+        ],
+        "plain_approx_tokens_total": 8249
+      }
+    }
+  },
+  "git_sha": "1b1313968e1368a3e62a05dc833b276340d54647",
+  "mcnemar": {
+    "A:R1": {
+      "a": 374,
+      "b": 117,
+      "c": 65,
+      "d": 79,
+      "n": 635,
+      "p_value": 0.000142
+    },
+    "A:R2": {
+      "a": 398,
+      "b": 104,
+      "c": 52,
+      "d": 81,
+      "n": 635,
+      "p_value": 3.8e-05
+    },
+    "A:R3": {
+      "a": 405,
+      "b": 80,
+      "c": 70,
+      "d": 80,
+      "n": 635,
+      "p_value": 0.46255
+    },
+    "A:R4": {
+      "a": 382,
+      "b": 103,
+      "c": 63,
+      "d": 87,
+      "n": 635,
+      "p_value": 0.002369
+    },
+    "B:W1": {
+      "a": 398,
+      "b": 103,
+      "c": 60,
+      "d": 74,
+      "n": 635,
+      "p_value": 0.000944
+    },
+    "B:W2": {
+      "a": 394,
+      "b": 111,
+      "c": 62,
+      "d": 68,
+      "n": 635,
+      "p_value": 0.000241
+    },
+    "B:W3": {
+      "a": 524,
+      "b": 35,
+      "c": 38,
+      "d": 38,
+      "n": 635,
+      "p_value": 0.815121
+    }
+  },
+  "panel_drops": [],
+  "panels": {
+    "readers": [
+      {
+        "id": "R1",
+        "model": "google/gemma-4-31b-it"
+      },
+      {
+        "id": "R2",
+        "model": "qwen/qwen3.8-27b"
+      },
+      {
+        "id": "R3",
+        "model": "nvidia/nemotron-3-super-120b-a12b"
+      },
+      {
+        "id": "R4",
+        "model": "google/gemma-4-26b-a4b-it"
+      }
+    ],
+    "writers": [
+      {
+        "id": "W1",
+        "model": "google/gemma-4-31b-it"
+      },
+      {
+        "id": "W2",
+        "model": "qwen/qwen3.8-27b"
+      },
+      {
+        "id": "W3",
+        "model": "openai/gpt-5-mini"
+      }
+    ]
+  },
+  "passages": 50,
+  "run_id": "crossmodel_merged",
+  "slices_merged": [
+    "slice_0000.jsonl",
+    "slice_0001.jsonl",
+    "slice_0002.jsonl",
+    "slice_0003.jsonl",
+    "slice_0004.jsonl",
+    "slice_0005.jsonl",
+    "slice_0006.jsonl",
+    "slice_0007.jsonl",
+    "slice_0008.jsonl",
+    "slice_0009.jsonl",
+    "slice_0010.jsonl",
+    "slice_0011.jsonl",
+    "slice_0012.jsonl",
+    "slice_0013.jsonl",
+    "slice_0014.jsonl",
+    "slice_0015.jsonl",
+    "slice_0016.jsonl",
+    "slice_0017.jsonl",
+    "slice_0018.jsonl",
+    "slice_0019.jsonl",
+    "slice_0020.jsonl",
+    "slice_0021.jsonl",
+    "slice_0022.jsonl",
+    "slice_0023.jsonl"
+  ],
+  "source_run": "/root/projects/token_codebook/results/cablese_cbl2"
+}

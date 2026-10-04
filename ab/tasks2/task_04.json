@@ -1,0 +1,9 @@
+{
+  "expected_answer": "fair",
+  "facts": [],
+  "id": "task_04",
+  "len_class": "short",
+  "passage": "The city editor glanced at the report from the western bureau, written in the clipped hand of a man who paid for his own words. Yesterday the weather along the coast had been fair; the amount of shipping at the port was heavy; and the story, trimmed to the bone, would fill two columns on the front page of the morning edition.",
+  "question": "How had the coastal weather been yesterday?",
+  "register": "prose"
+}

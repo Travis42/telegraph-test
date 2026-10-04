@@ -1,0 +1,25 @@
+{
+  "expected_answer": "45 miles per hour",
+  "facts": [
+    "The accident at Kipton Crossing occurred on 18 April 1891.",
+    "The Toledo express was running twenty minutes late.",
+    "The express was travelling at an estimated 45 miles per hour.",
+    "It struck a stationary freight train shunted onto the main line.",
+    "The collision killed the express engineer Michael O'Hara.",
+    "The fireman was also killed.",
+    "Nine passengers were injured, none fatally.",
+    "The station agent at Oberlin was James Caldwell.",
+    "Caldwell failed to deliver the order fixing a meeting point at Elyria.",
+    "The express consisted of a locomotive, a baggage car, two coaches, and a sleeper.",
+    "61 passengers were aboard.",
+    "The conductor's count was taken at Cleveland.",
+    "Damage to rolling stock was assessed at 14,200 dollars.",
+    "The board recommended the block signal system over the whole division.",
+    "Both recommendations were carried out within the year."
+  ],
+  "id": "fact_med_04",
+  "len_class": "medium",
+  "passage": "The railway accident at Kipton Crossing occurred on the evening of 18 April 1891 when the Toledo express, running twenty minutes late at an estimated 45 miles per hour, struck a stationary freight train that had been shunted onto the main line. The collision killed the express engineer, Michael O'Hara, and the fireman, and injured nine passengers, none fatally. The investigating board found that the station agent at Oberlin, James Caldwell, had failed to deliver the order fixing a meeting point at Elyria. The express consisted of a locomotive, a baggage car, two coaches, and a sleeper; 61 passengers were aboard according to the conductor's count at Cleveland. Damage to rolling stock was assessed at 14,200 dollars. The board recommended the introduction of the block signal system over the whole division and the dismissal of Caldwell, both of which were carried out by the company within the year.",
+  "question": "How fast was the Toledo express travelling when it struck the freight train?",
+  "register": "fact"
+}

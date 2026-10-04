@@ -1,0 +1,766 @@
+{
+  "anchoring_gate": {
+    "passages": {
+      "fact_long_01": {
+        "anchored_pool": 18,
+        "n": 18,
+        "quota": 24
+      },
+      "fact_long_02": {
+        "anchored_pool": 12,
+        "n": 12,
+        "quota": 24
+      },
+      "fact_long_03": {
+        "anchored_pool": 19,
+        "n": 19,
+        "quota": 24
+      },
+      "fact_long_04": {
+        "anchored_pool": 18,
+        "n": 18,
+        "quota": 24
+      },
+      "fact_long_05": {
+        "anchored_pool": 18,
+        "n": 18,
+        "quota": 24
+      },
+      "fact_long_06": {
+        "anchored_pool": 7,
+        "n": 7,
+        "quota": 24
+      },
+      "fact_med_01": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "fact_med_02": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "fact_med_03": {
+        "anchored_pool": 26,
+        "n": 24,
+        "quota": 24
+      },
+      "fact_med_04": {
+        "anchored_pool": 32,
+        "n": 24,
+        "quota": 24
+      },
+      "fact_med_05": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "fact_med_06": {
+        "anchored_pool": 16,
+        "n": 16,
+        "quota": 24
+      },
+      "for_01": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "for_02": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "for_03": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "for_04": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "for_05": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "for_06": {
+        "anchored_pool": 18,
+        "n": 18,
+        "quota": 24
+      },
+      "for_07": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "for_08": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "for_09": {
+        "anchored_pool": 10,
+        "n": 10,
+        "quota": 24
+      },
+      "for_10": {
+        "anchored_pool": 11,
+        "n": 11,
+        "quota": 24
+      },
+      "for_11": {
+        "anchored_pool": 11,
+        "n": 11,
+        "quota": 24
+      },
+      "for_12": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "for_13": {
+        "anchored_pool": 12,
+        "n": 12,
+        "quota": 24
+      },
+      "for_14": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "task_01": {
+        "anchored_pool": 5,
+        "n": 5,
+        "quota": 24
+      },
+      "task_02": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "task_03": {
+        "anchored_pool": 9,
+        "n": 9,
+        "quota": 24
+      },
+      "task_04": {
+        "anchored_pool": 11,
+        "n": 11,
+        "quota": 24
+      },
+      "task_05": {
+        "anchored_pool": 11,
+        "n": 11,
+        "quota": 24
+      },
+      "task_06": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "task_07": {
+        "anchored_pool": 8,
+        "n": 8,
+        "quota": 24
+      },
+      "task_08": {
+        "anchored_pool": 8,
+        "n": 8,
+        "quota": 24
+      },
+      "task_09": {
+        "anchored_pool": 13,
+        "n": 13,
+        "quota": 24
+      },
+      "task_10": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "task_11": {
+        "anchored_pool": 8,
+        "n": 8,
+        "quota": 24
+      },
+      "task_12": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "task_13": {
+        "anchored_pool": 16,
+        "n": 16,
+        "quota": 24
+      },
+      "task_14": {
+        "anchored_pool": 8,
+        "n": 8,
+        "quota": 24
+      },
+      "task_15": {
+        "anchored_pool": 10,
+        "n": 10,
+        "quota": 24
+      },
+      "task_16": {
+        "anchored_pool": 9,
+        "n": 9,
+        "quota": 24
+      },
+      "task_17": {
+        "anchored_pool": 9,
+        "n": 9,
+        "quota": 24
+      },
+      "task_18": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      },
+      "task_19": {
+        "anchored_pool": 22,
+        "n": 22,
+        "quota": 24
+      },
+      "task_20": {
+        "anchored_pool": 19,
+        "n": 19,
+        "quota": 24
+      },
+      "task_21": {
+        "anchored_pool": 14,
+        "n": 14,
+        "quota": 24
+      },
+      "task_22": {
+        "anchored_pool": 9,
+        "n": 9,
+        "quota": 24
+      },
+      "task_23": {
+        "anchored_pool": 23,
+        "n": 23,
+        "quota": 24
+      },
+      "task_24": {
+        "anchored_pool": 28,
+        "n": 24,
+        "quota": 24
+      }
+    },
+    "rejected_unanchored": 19
+  },
+  "conditions": {
+    "A-FROM-DECODED": {
+      "bootstrap_raw_95": [
+        0.77983,
+        0.849398
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 694,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 128,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "333626b533a3144932f4906dc7c3b7cc66e79731",
+      "overall_raw": {
+        "accuracy": 0.815562,
+        "correct": 566,
+        "n": 694,
+        "wilson_95": [
+          0.784997,
+          0.842653
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 18,
+          "raw_accuracy": 0.944444,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_01"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 1.0,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_long_02"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.842105,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_long_03"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.944444,
+          "raw_correct": 17,
+          "register": "fact",
+          "task_id": "fact_long_04"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 14,
+          "register": "fact",
+          "task_id": "fact_long_05"
+        },
+        {
+          "n": 7,
+          "raw_accuracy": 1.0,
+          "raw_correct": 7,
+          "register": "fact",
+          "task_id": "fact_long_06"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 12,
+          "register": "fact",
+          "task_id": "fact_med_01"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 1.0,
+          "raw_correct": 15,
+          "register": "fact",
+          "task_id": "fact_med_02"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.875,
+          "raw_correct": 21,
+          "register": "fact",
+          "task_id": "fact_med_03"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.791667,
+          "raw_correct": 19,
+          "register": "fact",
+          "task_id": "fact_med_04"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "fact",
+          "task_id": "fact_med_05"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 1.0,
+          "raw_correct": 16,
+          "register": "fact",
+          "task_id": "fact_med_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_02"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.615385,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_03"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.571429,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_04"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_05"
+        },
+        {
+          "n": 18,
+          "raw_accuracy": 0.5,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_06"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.8,
+          "raw_correct": 12,
+          "register": "formulaic",
+          "task_id": "for_07"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "formulaic",
+          "task_id": "for_08"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.7,
+          "raw_correct": 7,
+          "register": "formulaic",
+          "task_id": "for_09"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_10"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.727273,
+          "raw_correct": 8,
+          "register": "formulaic",
+          "task_id": "for_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "formulaic",
+          "task_id": "for_12"
+        },
+        {
+          "n": 12,
+          "raw_accuracy": 0.833333,
+          "raw_correct": 10,
+          "register": "formulaic",
+          "task_id": "for_13"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.692308,
+          "raw_correct": 9,
+          "register": "formulaic",
+          "task_id": "for_14"
+        },
+        {
+          "n": 5,
+          "raw_accuracy": 0.8,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_01"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.846154,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_02"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_03"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.909091,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_04"
+        },
+        {
+          "n": 11,
+          "raw_accuracy": 0.818182,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_05"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.642857,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_06"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_07"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.75,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_08"
+        },
+        {
+          "n": 13,
+          "raw_accuracy": 0.923077,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_09"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_10"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.875,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_11"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.857143,
+          "raw_correct": 12,
+          "register": "prose",
+          "task_id": "task_12"
+        },
+        {
+          "n": 16,
+          "raw_accuracy": 0.875,
+          "raw_correct": 14,
+          "register": "prose",
+          "task_id": "task_13"
+        },
+        {
+          "n": 8,
+          "raw_accuracy": 0.625,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_14"
+        },
+        {
+          "n": 10,
+          "raw_accuracy": 0.8,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_15"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_16"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_18"
+        },
+        {
+          "n": 22,
+          "raw_accuracy": 0.954545,
+          "raw_correct": 21,
+          "register": "prose",
+          "task_id": "task_19"
+        },
+        {
+          "n": 19,
+          "raw_accuracy": 0.947368,
+          "raw_correct": 18,
+          "register": "prose",
+          "task_id": "task_20"
+        },
+        {
+          "n": 14,
+          "raw_accuracy": 0.785714,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_21"
+        },
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_22"
+        },
+        {
+          "n": 23,
+          "raw_accuracy": 0.913043,
+          "raw_correct": 21,
+          "register": "prose",
+          "task_id": "task_23"
+        },
+        {
+          "n": 24,
+          "raw_accuracy": 0.791667,
+          "raw_correct": 19,
+          "register": "prose",
+          "task_id": "task_24"
+        }
+      ],
+      "per_register_raw": {
+        "fact": {
+          "accuracy": 0.893939,
+          "correct": 177,
+          "n": 198,
+          "wilson_95": [
+            0.843306,
+            0.929577
+          ]
+        },
+        "formulaic": {
+          "accuracy": 0.714286,
+          "correct": 135,
+          "n": 189,
+          "wilson_95": [
+            0.646114,
+            0.77392
+          ]
+        },
+        "prose": {
+          "accuracy": 0.827362,
+          "correct": 254,
+          "n": 307,
+          "wilson_95": [
+            0.781108,
+            0.865524
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.859155,
+          "correct": 427,
+          "n": 497,
+          "wilson_95": [
+            0.825811,
+            0.88699
+          ]
+        },
+        "inference": {
+          "accuracy": 0.690476,
+          "correct": 58,
+          "n": 84,
+          "wilson_95": [
+            0.585112,
+            0.779181
+          ]
+        },
+        "numeric": {
+          "accuracy": 0.666667,
+          "correct": 24,
+          "n": 36,
+          "wilson_95": [
+            0.50334,
+            0.797854
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.74026,
+          "correct": 57,
+          "n": 77,
+          "wilson_95": [
+            0.632578,
+            0.825108
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    }
+  },
+  "decode_ratio_rec": 0.976315,
+  "decoded_recovery_ratio": 1.079804,
+  "git_sha": "333626b533a3144932f4906dc7c3b7cc66e79731",
+  "mcnemar": {
+    "A-FROM-DECODED_vs_A-FROM-PLAIN": {
+      "a": 446,
+      "b": 69,
+      "c": 45,
+      "d": 75,
+      "n": 635,
+      "p_value": 0.030776
+    }
+  },
+  "passages": 50,
+  "record_tokens": {
+    "R-CABLESE": {
+      "mean_approx_tokens": 116.54,
+      "n_records": 50
+    },
+    "R-DECODED": {
+      "mean_approx_tokens": 154.84,
+      "n_records": 50
+    },
+    "R-PLAIN": {
+      "mean_approx_tokens": 259.86,
+      "n_records": 50
+    },
+    "decoded_vs_cablese_ratio": 1.328643,
+    "decoded_vs_plain_ratio": 0.595859,
+    "note": "mean approx_count per record (tcb.tokencount); expansion overhead = does decoding give the tokens back? expected ~1x R-PLAIN"
+  },
+  "run_id": "record_decode_20261004_105550",
+  "source_accuracies_v2": {
+    "A-FROM-CABLESE": 0.835347,
+    "A-FROM-PLAIN": 0.755287,
+    "n_cablese": 662,
+    "n_plain": 662
+  },
+  "source_run": "/root/projects/token_codebook/results/cablese_cbl2"
+}

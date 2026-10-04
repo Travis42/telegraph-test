@@ -1,0 +1,18 @@
+{
+  "expected_answer": "infra",
+  "facts": [
+    "standup date is 2026-09-30",
+    "agent is librarian",
+    "squad is infra",
+    "yesterday: reindexed docs",
+    "yesterday: migrated 3 wikis",
+    "today: archive stale runbooks",
+    "blockers: none",
+    "hours: 5"
+  ],
+  "id": "for_08",
+  "len_class": "short",
+  "passage": "STANDUP 2026-09-30 agent=librarian squad=infra yesterday=reindexed-docs,migrated-3-wikis today=archive-stale-runbooks blockers=none hours=5",
+  "question": "Which squad does librarian belong to?",
+  "register": "formulaic"
+}

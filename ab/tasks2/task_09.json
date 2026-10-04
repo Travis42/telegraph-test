@@ -1,0 +1,9 @@
+{
+  "expected_answer": "the river was low",
+  "facts": [],
+  "id": "task_09",
+  "len_class": "short",
+  "passage": "The river was low that autumn, and traffic on the upper reaches ran light. The steamed boats threaded the sandbars with care, their pilots leaning on the rails and reading the water. At the landing the clerk received a message about freight rates, sent back a short answer, and the packets went on down toward the city in the blue evening.",
+  "question": "Why did the boats thread the sandbars with care?",
+  "register": "prose"
+}

@@ -1,0 +1,26 @@
+{
+  "expected_answer": "18 nautical miles",
+  "facts": [
+    "The lighthouse at Cape Verde Point was commissioned on 3 March 1901.",
+    "The first keeper was Augusto Ferreira.",
+    "Ferreira served for eleven consecutive years.",
+    "The tower stands 34 metres high.",
+    "The apparatus shows two white flashes every fifteen seconds.",
+    "The light is visible at 18 nautical miles.",
+    "The station burns kerosene at 460 litres per month.",
+    "The fog signal gives two blasts per minute.",
+    "The fog signal was added in 1904.",
+    "It was added after the wreck of the barque Santa Ana.",
+    "The Santa Ana struck the reef on 9 July 1903.",
+    "Seven hands were lost in the wreck.",
+    "The point lies 6 kilometres north of Praia Seca.",
+    "A telephone line to the port was completed in 1907.",
+    "Ferreira was succeeded in 1912 by Joao Braz.",
+    "Joao Braz had joined the service in 1898."
+  ],
+  "id": "fact_med_02",
+  "len_class": "medium",
+  "passage": "The lighthouse at Cape Verde Point was commissioned on 3 March 1901 and first lit by keeper Augusto Ferreira, who served there for eleven consecutive years. The tower stands 34 metres high and its dioptric apparatus of the second order shows two white flashes every fifteen seconds, visible at 18 nautical miles. The station burns kerosene at a rate of 460 litres per month, drawn from a store built into the head keeper's cottage. A fog signal of two blasts per minute was added in 1904 after the wreck of the barque Santa Ana, which struck the reef beneath the point on 9 July 1903 with the loss of seven hands. The point lies 6 kilometres north of the fishing port of Praia Seca. A telephone line to the port was completed in 1907. Ferreira was succeeded in 1912 by his assistant, Joao Braz, who had joined the service in 1898.",
+  "question": "How far is the lighthouse visible?",
+  "register": "fact"
+}

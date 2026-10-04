@@ -1,0 +1,9 @@
+{
+  "expected_answer": "by mule",
+  "facts": [],
+  "id": "task_08",
+  "len_class": "short",
+  "passage": "News travelled slowly to the assay office at Dry Creek. The report from the upper camp came down by mule, a duplicate having been sent by the stage in case the first should be lost. The quiet town heard that the lode was rich, that the owners had paid their men in full, and that a company of investors would arrive before the snow.",
+  "question": "How did the report from the upper camp arrive?",
+  "register": "prose"
+}

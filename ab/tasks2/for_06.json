@@ -1,0 +1,17 @@
+{
+  "expected_answer": "waiting on metrics signoff",
+  "facts": [
+    "standup date is 2026-09-30",
+    "agent is deployer",
+    "squad is pipeline",
+    "yesterday: shipped v2.3.1 to canary",
+    "today: promote canary to full if metrics hold",
+    "blockers: waiting on metrics signoff",
+    "hours: 4"
+  ],
+  "id": "for_06",
+  "len_class": "short",
+  "passage": "STANDUP 2026-09-30 agent=deployer squad=pipeline yesterday=shipped-v2.3.1-to-canary today=promote-canary-to-full-if-metrics-hold blockers=waiting-on-metrics-signoff hours=4",
+  "question": "What is deployer blocked on?",
+  "register": "formulaic"
+}

@@ -1,0 +1,9 @@
+{
+  "expected_answer": "a message about the weather on the plains",
+  "facts": [],
+  "id": "task_02",
+  "len_class": "short",
+  "passage": "The operator at the little inland station sat through the afternoon with his key quiet, waiting for traffic that seldom came. When the wire at last spoke, he copied a message about the weather on the plains, sent his answer down the line, and logged the exchange in the fat leather book that recorded every word the station had ever received.",
+  "question": "What did the operator copy from the wire?",
+  "register": "prose"
+}

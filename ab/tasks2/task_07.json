@@ -1,0 +1,9 @@
+{
+  "expected_answer": "at the foot of the glacier",
+  "facts": [],
+  "id": "task_07",
+  "len_class": "short",
+  "passage": "The hut stood at the foot of the glacier, and its location had been fixed by observation within a mile. Inside, the men mended their gear and waited for clear weather. By the chronometer the exact time of the noon sight was logged, and the navigator wrote in the diary that the party was in good health and fair spirits.",
+  "question": "Where did the hut stand?",
+  "register": "prose"
+}

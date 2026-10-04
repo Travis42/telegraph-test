@@ -1,0 +1,15 @@
+{
+  "llm": {
+    "model": "glm53_flash",
+    "lanes": [
+      "zai-max"
+    ],
+    "requests": 800,
+    "hours": 4,
+    "mode": "advise",
+    "fresh_in_M": 0.5,
+    "cached_in_M": 1.5,
+    "out_M": 0.4,
+    "note": "~750 relay calls (50 record expansions + ~727 anchored answers) on the coding-plan subscription (not metered dollars); zai-max lane, glm-5.3-flash via coding endpoint"
+  }
+}

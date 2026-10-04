@@ -1,0 +1,19 @@
+{
+  "expected_answer": "start batch 8",
+  "facts": [
+    "standup date is 2026-09-30",
+    "agent is checker",
+    "squad is pipeline",
+    "yesterday: reviewed pr-4832",
+    "yesterday: ran batch-7",
+    "today: finish batch-7 review",
+    "today: start batch-8",
+    "blockers: none",
+    "hours: 6"
+  ],
+  "id": "for_05",
+  "len_class": "short",
+  "passage": "STANDUP 2026-09-30 agent=checker squad=pipeline yesterday=reviewed-pr-4832,ran-batch-7 today=finish-batch-7-review,start-batch-8 blockers=none hours=6",
+  "question": "What will checker work on after finishing the batch-7 review?",
+  "register": "formulaic"
+}

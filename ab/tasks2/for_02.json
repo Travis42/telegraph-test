@@ -1,0 +1,19 @@
+{
+  "expected_answer": "91%",
+  "facts": [
+    "host is api-02",
+    "role is web",
+    "cpu is 91%",
+    "mem is 78%",
+    "disk is 44%",
+    "net is degraded",
+    "uptime is 14d",
+    "version is 2.3.1",
+    "notes say latency elevated since 09:40"
+  ],
+  "id": "for_02",
+  "len_class": "short",
+  "passage": "STATUS host=api-02 role=web cpu=91% mem=78% disk=44% net=degraded uptime=14d version=2.3.1 notes=latency-elevated-since-09:40",
+  "question": "What is the cpu usage on api-02?",
+  "register": "formulaic"
+}

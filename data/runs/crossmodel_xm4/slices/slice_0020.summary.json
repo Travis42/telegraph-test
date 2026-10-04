@@ -1,0 +1,1689 @@
+{
+  "anchoring_gate": {
+    "passages": {
+      "task_17": {
+        "anchored_pool": 9,
+        "n": 9,
+        "quota": 24
+      },
+      "task_18": {
+        "anchored_pool": 15,
+        "n": 15,
+        "quota": 24
+      }
+    },
+    "rejected_unanchored": 0
+  },
+  "conditions": {
+    "A-FROM-CABLESE/R1": {
+      "bootstrap_raw_95": [
+        0.666667,
+        0.888889
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 6,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.75,
+        "correct": 18,
+        "n": 24,
+        "wilson_95": [
+          0.551006,
+          0.880006
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.75,
+          "correct": 18,
+          "n": 24,
+          "wilson_95": [
+            0.551006,
+            0.880006
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.8,
+          "correct": 16,
+          "n": 20,
+          "wilson_95": [
+            0.583983,
+            0.919342
+          ]
+        },
+        "inference": {
+          "accuracy": 0.666667,
+          "correct": 2,
+          "n": 3,
+          "wilson_95": [
+            0.20766,
+            0.938508
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-CABLESE/R2": {
+      "bootstrap_raw_95": [
+        0.666667,
+        0.777778
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 7,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.708333,
+        "correct": 17,
+        "n": 24,
+        "wilson_95": [
+          0.508323,
+          0.850854
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.708333,
+          "correct": 17,
+          "n": 24,
+          "wilson_95": [
+            0.508323,
+            0.850854
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.8,
+          "correct": 16,
+          "n": 20,
+          "wilson_95": [
+            0.583983,
+            0.919342
+          ]
+        },
+        "inference": {
+          "accuracy": 0.333333,
+          "correct": 1,
+          "n": 3,
+          "wilson_95": [
+            0.061492,
+            0.79234
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-CABLESE/R3": {
+      "bootstrap_raw_95": [
+        0.533333,
+        0.666667
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 10,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.583333,
+        "correct": 14,
+        "n": 24,
+        "wilson_95": [
+          0.388347,
+          0.755324
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.533333,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.583333,
+          "correct": 14,
+          "n": 24,
+          "wilson_95": [
+            0.388347,
+            0.755324
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.65,
+          "correct": 13,
+          "n": 20,
+          "wilson_95": [
+            0.432854,
+            0.818808
+          ]
+        },
+        "inference": {
+          "accuracy": 0.333333,
+          "correct": 1,
+          "n": 3,
+          "wilson_95": [
+            0.061492,
+            0.79234
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-CABLESE/R4": {
+      "bootstrap_raw_95": [
+        0.666667,
+        0.733333
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 7,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.708333,
+        "correct": 17,
+        "n": 24,
+        "wilson_95": [
+          0.508323,
+          0.850854
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.733333,
+          "raw_correct": 11,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.708333,
+          "correct": 17,
+          "n": 24,
+          "wilson_95": [
+            0.508323,
+            0.850854
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.75,
+          "correct": 15,
+          "n": 20,
+          "wilson_95": [
+            0.531299,
+            0.888138
+          ]
+        },
+        "inference": {
+          "accuracy": 0.666667,
+          "correct": 2,
+          "n": 3,
+          "wilson_95": [
+            0.20766,
+            0.938508
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-PLAIN/R1": {
+      "bootstrap_raw_95": [
+        0.444444,
+        0.666667
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 10,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.583333,
+        "correct": 14,
+        "n": 24,
+        "wilson_95": [
+          0.388347,
+          0.755324
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.444444,
+          "raw_correct": 4,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.583333,
+          "correct": 14,
+          "n": 24,
+          "wilson_95": [
+            0.388347,
+            0.755324
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.6,
+          "correct": 12,
+          "n": 20,
+          "wilson_95": [
+            0.386581,
+            0.781193
+          ]
+        },
+        "inference": {
+          "accuracy": 0.666667,
+          "correct": 2,
+          "n": 3,
+          "wilson_95": [
+            0.20766,
+            0.938508
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-PLAIN/R2": {
+      "bootstrap_raw_95": [
+        0.555556,
+        0.6
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 10,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.583333,
+        "correct": 14,
+        "n": 24,
+        "wilson_95": [
+          0.388347,
+          0.755324
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.555556,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.583333,
+          "correct": 14,
+          "n": 24,
+          "wilson_95": [
+            0.388347,
+            0.755324
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.65,
+          "correct": 13,
+          "n": 20,
+          "wilson_95": [
+            0.432854,
+            0.818808
+          ]
+        },
+        "inference": {
+          "accuracy": 0.333333,
+          "correct": 1,
+          "n": 3,
+          "wilson_95": [
+            0.061492,
+            0.79234
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-PLAIN/R3": {
+      "bootstrap_raw_95": [
+        0.6,
+        0.666667
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 9,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.625,
+        "correct": 15,
+        "n": 24,
+        "wilson_95": [
+          0.4271,
+          0.788406
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.625,
+          "correct": 15,
+          "n": 24,
+          "wilson_95": [
+            0.4271,
+            0.788406
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.7,
+          "correct": 14,
+          "n": 20,
+          "wilson_95": [
+            0.481027,
+            0.854523
+          ]
+        },
+        "inference": {
+          "accuracy": 0.333333,
+          "correct": 1,
+          "n": 3,
+          "wilson_95": [
+            0.061492,
+            0.79234
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "A-FROM-PLAIN/R4": {
+      "bootstrap_raw_95": [
+        0.555556,
+        0.6
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 10,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.583333,
+        "correct": 14,
+        "n": 24,
+        "wilson_95": [
+          0.388347,
+          0.755324
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.555556,
+          "raw_correct": 5,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.6,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.583333,
+          "correct": 14,
+          "n": 24,
+          "wilson_95": [
+            0.388347,
+            0.755324
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.65,
+          "correct": 13,
+          "n": 20,
+          "wilson_95": [
+            0.432854,
+            0.818808
+          ]
+        },
+        "inference": {
+          "accuracy": 0.333333,
+          "correct": 1,
+          "n": 3,
+          "wilson_95": [
+            0.061492,
+            0.79234
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-CABLESE/W1": {
+      "bootstrap_raw_95": [
+        0.533333,
+        1.0
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 7,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.708333,
+        "correct": 17,
+        "n": 24,
+        "wilson_95": [
+          0.508323,
+          0.850854
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 1.0,
+          "raw_correct": 9,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.533333,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.708333,
+          "correct": 17,
+          "n": 24,
+          "wilson_95": [
+            0.508323,
+            0.850854
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.75,
+          "correct": 15,
+          "n": 20,
+          "wilson_95": [
+            0.531299,
+            0.888138
+          ]
+        },
+        "inference": {
+          "accuracy": 0.666667,
+          "correct": 2,
+          "n": 3,
+          "wilson_95": [
+            0.20766,
+            0.938508
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-CABLESE/W2": {
+      "bootstrap_raw_95": [
+        0.666667,
+        0.666667
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 8,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.666667,
+        "correct": 16,
+        "n": 24,
+        "wilson_95": [
+          0.467063,
+          0.820278
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 10,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.666667,
+          "correct": 16,
+          "n": 24,
+          "wilson_95": [
+            0.467063,
+            0.820278
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.65,
+          "correct": 13,
+          "n": 20,
+          "wilson_95": [
+            0.432854,
+            0.818808
+          ]
+        },
+        "inference": {
+          "accuracy": 1.0,
+          "correct": 3,
+          "n": 3,
+          "wilson_95": [
+            0.438503,
+            1.0
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-CABLESE/W3": {
+      "bootstrap_raw_95": [
+        0.777778,
+        0.866667
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 4,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.833333,
+        "correct": 20,
+        "n": 24,
+        "wilson_95": [
+          0.641469,
+          0.933213
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.777778,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.833333,
+          "correct": 20,
+          "n": 24,
+          "wilson_95": [
+            0.641469,
+            0.933213
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.85,
+          "correct": 17,
+          "n": 20,
+          "wilson_95": [
+            0.639581,
+            0.947631
+          ]
+        },
+        "inference": {
+          "accuracy": 1.0,
+          "correct": 3,
+          "n": 3,
+          "wilson_95": [
+            0.438503,
+            1.0
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-PLAIN/W1": {
+      "bootstrap_raw_95": [
+        0.4,
+        0.666667
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 12,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.5,
+        "correct": 12,
+        "n": 24,
+        "wilson_95": [
+          0.314274,
+          0.685726
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.4,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.5,
+          "correct": 12,
+          "n": 24,
+          "wilson_95": [
+            0.314274,
+            0.685726
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.55,
+          "correct": 11,
+          "n": 20,
+          "wilson_95": [
+            0.342085,
+            0.741802
+          ]
+        },
+        "inference": {
+          "accuracy": 0.333333,
+          "correct": 1,
+          "n": 3,
+          "wilson_95": [
+            0.061492,
+            0.79234
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-PLAIN/W2": {
+      "bootstrap_raw_95": [
+        0.466667,
+        0.666667
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 11,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.541667,
+        "correct": 13,
+        "n": 24,
+        "wilson_95": [
+          0.350749,
+          0.721087
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.666667,
+          "raw_correct": 6,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.466667,
+          "raw_correct": 7,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.541667,
+          "correct": 13,
+          "n": 24,
+          "wilson_95": [
+            0.350749,
+            0.721087
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.6,
+          "correct": 12,
+          "n": 20,
+          "wilson_95": [
+            0.386581,
+            0.781193
+          ]
+        },
+        "inference": {
+          "accuracy": 0.333333,
+          "correct": 1,
+          "n": 3,
+          "wilson_95": [
+            0.061492,
+            0.79234
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    },
+    "GLM-FROM-PLAIN/W3": {
+      "bootstrap_raw_95": [
+        0.866667,
+        0.888889
+      ],
+      "dedupe": {
+        "drop_rate": 0.0,
+        "dropped": 0,
+        "kept": 24,
+        "threshold": 0.6
+      },
+      "diagnostics": {
+        "judge": {
+          "grader_false_negative_rate": null,
+          "grader_false_positive_rate_estimate": null,
+          "hits_sampled": 0,
+          "misses_judged": 0,
+          "parse_rate": null,
+          "verdicts_all": {
+            "ambiguous": 0,
+            "grader_wrong": 0,
+            "partial": 0,
+            "unparsed": 0,
+            "wrong": 0
+          }
+        },
+        "judge_note": "judge output is diagnostic only (SPEC-VALIDATION): no verdict feeds any correctness value; the single headline is grader v2 raw (overall_raw).",
+        "miss_taxonomy": {
+          "ambiguous": 0,
+          "grader_wrong": 0,
+          "partial": 0,
+          "unjudged": 3,
+          "unparsed": 0,
+          "wrong": 0
+        }
+      },
+      "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+      "overall_raw": {
+        "accuracy": 0.875,
+        "correct": 21,
+        "n": 24,
+        "wilson_95": [
+          0.689961,
+          0.956557
+        ]
+      },
+      "per_passage": [
+        {
+          "n": 9,
+          "raw_accuracy": 0.888889,
+          "raw_correct": 8,
+          "register": "prose",
+          "task_id": "task_17"
+        },
+        {
+          "n": 15,
+          "raw_accuracy": 0.866667,
+          "raw_correct": 13,
+          "register": "prose",
+          "task_id": "task_18"
+        }
+      ],
+      "per_register_raw": {
+        "prose": {
+          "accuracy": 0.875,
+          "correct": 21,
+          "n": 24,
+          "wilson_95": [
+            0.689961,
+            0.956557
+          ]
+        }
+      },
+      "per_type_raw": {
+        "fact": {
+          "accuracy": 0.9,
+          "correct": 18,
+          "n": 20,
+          "wilson_95": [
+            0.698966,
+            0.972134
+          ]
+        },
+        "inference": {
+          "accuracy": 1.0,
+          "correct": 3,
+          "n": 3,
+          "wilson_95": [
+            0.438503,
+            1.0
+          ]
+        },
+        "ordering": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 1,
+          "wilson_95": [
+            0.0,
+            0.793451
+          ]
+        }
+      },
+      "questions_per_passage_plan": 24,
+      "run_id": "baseline"
+    }
+  },
+  "direction_a": {
+    "R1": {
+      "cablese_accuracy": 0.75,
+      "model": "google/gemma-4-31b-it",
+      "plain_accuracy": 0.583333,
+      "recovery_ratio": 1.285715,
+      "reference_glm_recovery_ratio": 0.997
+    },
+    "R2": {
+      "cablese_accuracy": 0.708333,
+      "model": "qwen/qwen3.8-27b",
+      "plain_accuracy": 0.583333,
+      "recovery_ratio": 1.214286,
+      "reference_glm_recovery_ratio": 0.997
+    },
+    "R3": {
+      "cablese_accuracy": 0.583333,
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "plain_accuracy": 0.625,
+      "recovery_ratio": 0.933333,
+      "reference_glm_recovery_ratio": 0.997
+    },
+    "R4": {
+      "cablese_accuracy": 0.708333,
+      "model": "google/gemma-4-26b-a4b-it",
+      "plain_accuracy": 0.583333,
+      "recovery_ratio": 1.214286,
+      "reference_glm_recovery_ratio": 0.997
+    }
+  },
+  "direction_b": {
+    "W1": {
+      "cablese_accuracy": 0.708333,
+      "model": "google/gemma-4-31b-it",
+      "plain_accuracy": 0.5,
+      "recovery_ratio": 1.416666,
+      "savings_pct": 40.09009,
+      "writer_record_tokens": {
+        "cablese_approx_tokens_total": 133,
+        "per_passage": [
+          {
+            "cablese_approx_tokens": 64,
+            "plain_approx_tokens": 99,
+            "task_id": "task_17"
+          },
+          {
+            "cablese_approx_tokens": 69,
+            "plain_approx_tokens": 123,
+            "task_id": "task_18"
+          }
+        ],
+        "plain_approx_tokens_total": 222
+      }
+    },
+    "W2": {
+      "cablese_accuracy": 0.666667,
+      "model": "qwen/qwen3.8-27b",
+      "plain_accuracy": 0.541667,
+      "recovery_ratio": 1.230769,
+      "savings_pct": 52.380952,
+      "writer_record_tokens": {
+        "cablese_approx_tokens_total": 120,
+        "per_passage": [
+          {
+            "cablese_approx_tokens": 56,
+            "plain_approx_tokens": 122,
+            "task_id": "task_17"
+          },
+          {
+            "cablese_approx_tokens": 64,
+            "plain_approx_tokens": 130,
+            "task_id": "task_18"
+          }
+        ],
+        "plain_approx_tokens_total": 252
+      }
+    },
+    "W3": {
+      "cablese_accuracy": 0.833333,
+      "model": "openai/gpt-5-mini",
+      "plain_accuracy": 0.875,
+      "recovery_ratio": 0.952381,
+      "savings_pct": 25.773196,
+      "writer_record_tokens": {
+        "cablese_approx_tokens_total": 144,
+        "per_passage": [
+          {
+            "cablese_approx_tokens": 72,
+            "plain_approx_tokens": 93,
+            "task_id": "task_17"
+          },
+          {
+            "cablese_approx_tokens": 72,
+            "plain_approx_tokens": 101,
+            "task_id": "task_18"
+          }
+        ],
+        "plain_approx_tokens_total": 194
+      }
+    }
+  },
+  "git_sha": "385727c90febaa03bf805c698c70d49c8471182a",
+  "mcnemar": {
+    "A:R1": {
+      "a": 11,
+      "b": 7,
+      "c": 3,
+      "d": 3,
+      "n": 24,
+      "p_value": 0.34375
+    },
+    "A:R2": {
+      "a": 12,
+      "b": 5,
+      "c": 2,
+      "d": 5,
+      "n": 24,
+      "p_value": 0.453125
+    },
+    "A:R3": {
+      "a": 12,
+      "b": 2,
+      "c": 3,
+      "d": 7,
+      "n": 24,
+      "p_value": 1.0
+    },
+    "A:R4": {
+      "a": 11,
+      "b": 6,
+      "c": 3,
+      "d": 4,
+      "n": 24,
+      "p_value": 0.507812
+    },
+    "B:W1": {
+      "a": 10,
+      "b": 7,
+      "c": 2,
+      "d": 5,
+      "n": 24,
+      "p_value": 0.179688
+    },
+    "B:W2": {
+      "a": 9,
+      "b": 7,
+      "c": 4,
+      "d": 4,
+      "n": 24,
+      "p_value": 0.548828
+    },
+    "B:W3": {
+      "a": 19,
+      "b": 1,
+      "c": 2,
+      "d": 2,
+      "n": 24,
+      "p_value": 1.0
+    }
+  },
+  "panel_drops": [],
+  "panels": {
+    "readers": [
+      {
+        "id": "R1",
+        "model": "google/gemma-4-31b-it"
+      },
+      {
+        "id": "R2",
+        "model": "qwen/qwen3.8-27b"
+      },
+      {
+        "id": "R3",
+        "model": "nvidia/nemotron-3-super-120b-a12b"
+      },
+      {
+        "id": "R4",
+        "model": "google/gemma-4-26b-a4b-it"
+      }
+    ],
+    "writers": [
+      {
+        "id": "W1",
+        "model": "google/gemma-4-31b-it"
+      },
+      {
+        "id": "W2",
+        "model": "qwen/qwen3.8-27b"
+      },
+      {
+        "id": "W3",
+        "model": "openai/gpt-5-mini"
+      }
+    ]
+  },
+  "passages": 2,
+  "run_id": "crossmodel_20261004_004101",
+  "slice_id": "0020",
+  "source_run": "/root/projects/token_codebook/results/cablese_cbl2",
+  "task_offset": 42
+}

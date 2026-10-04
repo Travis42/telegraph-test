@@ -1,0 +1,9 @@
+{
+  "expected_answer": "a car of coal",
+  "facts": [],
+  "id": "task_15",
+  "len_class": "short",
+  "passage": "The settlers at the bend of the creek had built their sod house before the first snow. A message from the railway agent at the county seat promised a car of coal if the neighbors would subscribe together, and the answer went back the same week. The winter that followed was long but quiet, and the amount of fodder proved just sufficient.",
+  "question": "What did the railway agent promise?",
+  "register": "prose"
+}

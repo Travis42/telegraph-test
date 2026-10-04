@@ -1,0 +1,9 @@
+{
+  "expected_answer": "changed horses",
+  "facts": [],
+  "id": "task_11",
+  "len_class": "short",
+  "passage": "The driver changed horses at the station near the river ford and took on a passenger, a quiet man with a leather case. Beyond the ridge the road climbed through pines, and the guard kept his rifle across his knees until the lights of the mining town appeared and the coach rolled in, an hour after the answer to the office telegram had expected it.",
+  "question": "What did the driver do at the station near the ford?",
+  "register": "prose"
+}

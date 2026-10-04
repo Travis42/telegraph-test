@@ -1,0 +1,20 @@
+{
+  "expected_answer": "item 6 (rollback doc linked)",
+  "facts": [
+    "checklist name is pre-deploy",
+    "checklist version is 7",
+    "checklist has 6 items",
+    "item 1 tests green is done",
+    "item 2 migration dry-run ok is done",
+    "item 3 backup taken is done",
+    "item 4 canary 5pct 15min is done",
+    "item 5 alerts paged on is done",
+    "item 6 rollback doc linked is pending",
+    "owner is deployer"
+  ],
+  "id": "for_09",
+  "len_class": "short",
+  "passage": "CHECKLIST name=pre-deploy v=7 items=6 [1]tests-green [2]migration-dry-run-ok [3]backup-taken [4]canary-5pct-15min [5]alerts-paged-on [6]rollback-doc-linked state=items-1-5-done,item-6-pending owner=deployer",
+  "question": "Which checklist item is still pending?",
+  "register": "formulaic"
+}

@@ -1,0 +1,15 @@
+{
+  "llm": {
+    "model": "glm53_flash",
+    "lanes": [
+      "zai-max"
+    ],
+    "requests": 1800,
+    "hours": 2,
+    "mode": "advise",
+    "fresh_in_M": 14,
+    "cached_in_M": 1.2,
+    "out_M": 3,
+    "note": "ds-direct 402 2026-10-03 -> openrouter same model v4.1-flash; est (0.3*14+0.3*1.2+1.2*3)*1.075"
+  }
+}

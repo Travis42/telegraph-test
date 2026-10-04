@@ -1,0 +1,23 @@
+{
+  "expected_answer": "640 tons",
+  "facts": [
+    "The steam collier Brixham arrived at Newcastle on 12 October 1884.",
+    "The passage from London took six days.",
+    "The Brixham carried 640 tons of coal.",
+    "Her master was Captain Elias Ward.",
+    "She met strong headwinds off Flamborough Head on the second day.",
+    "The headwinds cost the ship nearly ten hours.",
+    "The Brixham was built in 1879 at Middlesbrough.",
+    "She was registered at 812 tons gross.",
+    "Her engines developed 900 indicated horsepower.",
+    "The engines consumed twenty-two tons of coal per day.",
+    "The owners were Temperley and Carter of London.",
+    "The ship carried a crew of twenty-two men and three officers.",
+    "Two firemen were discharged at London for drunkenness before departure."
+  ],
+  "id": "fact_med_01",
+  "len_class": "medium",
+  "passage": "The steam collier Brixham arrived at Newcastle on 12 October 1884 after a passage of six days from London, having carried 640 tons of coal. Her master, Captain Elias Ward, reported strong headwinds off Flamborough Head on the second day, which cost the ship nearly ten hours. The Brixham was built in 1879 at Middlesbrough and registered at 812 tons gross. Her engines developed 900 indicated horsepower and consumed twenty-two tons of coal per day. The owners, Temperley and Carter of London, intended her for the regular coal run between the Tyne and the capital. On this voyage she carried a crew of twenty-two men and three officers. Two firemen had been discharged at London for drunkenness before departure, and their replacements were signed on only hours before the ship left the dock. The cargo was delivered in good order, and the surveyor's certificate noted no damage to the hatches or coamings.",
+  "question": "How many tons of coal did the Brixham carry on this voyage?",
+  "register": "fact"
+}

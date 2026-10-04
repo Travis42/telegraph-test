@@ -1,0 +1,9 @@
+{
+  "expected_answer": "a gale from the northwest",
+  "facts": [],
+  "id": "task_17",
+  "len_class": "short",
+  "passage": "The smacks lay close in under the headland when the warning reached them. The wireless station ashore had received word of a gale from the northwest, and the fleet, having heard the weather signal, ran for the harbor before dark. Only one boat was lost, and her crew was taken off in good time by the lifeboat stationed at the point.",
+  "question": "What warning reached the fleet?",
+  "register": "prose"
+}

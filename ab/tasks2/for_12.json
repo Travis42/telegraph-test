@@ -1,0 +1,20 @@
+{
+  "expected_answer": "8000 ms",
+  "facts": [
+    "config name is api-gateway",
+    "env is prod",
+    "replicas is 4",
+    "timeout is 8000 ms",
+    "retry is 2",
+    "ratelimit is 5000 rps",
+    "feature mtls is on",
+    "feature caching is on",
+    "feature canary is off",
+    "owner is squad-pipeline"
+  ],
+  "id": "for_12",
+  "len_class": "short",
+  "passage": "CONFIG name=api-gateway env=prod replicas=4 timeout_ms=8000 retry=2 ratelimit_rps=5000 features=mtls:on,caching:on,canary:off owner=squad-pipeline",
+  "question": "What is the request timeout in the api-gateway prod config?",
+  "register": "formulaic"
+}

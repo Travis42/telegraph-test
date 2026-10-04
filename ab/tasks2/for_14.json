@@ -1,0 +1,21 @@
+{
+  "expected_answer": "0",
+  "facts": [
+    "config name is batch-runner",
+    "env is prod",
+    "replicas is 2",
+    "timeout is 3600000 ms",
+    "retry is 0",
+    "ratelimit is 0 rps",
+    "feature mtls is on",
+    "feature caching is off",
+    "feature canary is off",
+    "owner is squad-pipeline",
+    "schedule is cron 0 4 * mon-fri"
+  ],
+  "id": "for_14",
+  "len_class": "short",
+  "passage": "CONFIG name=batch-runner env=prod replicas=2 timeout_ms=3600000 retry=0 ratelimit_rps=0 features=mtls:on,caching:off,canary:off owner=squad-pipeline schedule=cron-0-4-*.mon-fri",
+  "question": "How many retries does batch-runner use?",
+  "register": "formulaic"
+}

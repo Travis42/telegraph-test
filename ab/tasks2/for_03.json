@@ -1,0 +1,19 @@
+{
+  "expected_answer": "postgres",
+  "facts": [
+    "host is db-01",
+    "role is postgres",
+    "cpu is 38%",
+    "mem is 84%",
+    "disk is 71%",
+    "net is ok",
+    "uptime is 203d",
+    "version is 15.4",
+    "notes say vacuum running"
+  ],
+  "id": "for_03",
+  "len_class": "short",
+  "passage": "STATUS host=db-01 role=postgres cpu=38% mem=84% disk=71% net=ok uptime=203d version=15.4 notes=vacuum-running",
+  "question": "What role does db-01 serve?",
+  "register": "formulaic"
+}

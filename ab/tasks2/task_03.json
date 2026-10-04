@@ -1,0 +1,9 @@
+{
+  "expected_answer": "the northern track",
+  "facts": [],
+  "id": "task_03",
+  "len_class": "short",
+  "passage": "At the junction the station master posted the morning order for the freight crews: through traffic would run on the northern track while the southern cut was repaired. The railway men read the notice twice, checked their watches against the office clock, and walked out into the cold to meet the first heavy train of the day.",
+  "question": "Which track would through traffic use?",
+  "register": "prose"
+}

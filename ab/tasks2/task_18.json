@@ -1,0 +1,9 @@
+{
+  "expected_answer": "four",
+  "facts": [],
+  "id": "task_18",
+  "len_class": "short",
+  "passage": "The proprietor of the Lake House kept his register open on the desk and his eye upon the road. A telegram had been received the evening before: a party of four, one horse, dinner at eight. The answer he sent back was brief and civil, and the rooms facing the water were made ready, for the weather promised fair and the season was about to begin.",
+  "question": "How many people were in the arriving party?",
+  "register": "prose"
+}

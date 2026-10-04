@@ -1,0 +1,9 @@
+{
+  "expected_answer": "the railway companies",
+  "facts": [],
+  "id": "task_20",
+  "len_class": "short",
+  "passage": "At the observatory the night assistant kept the clock wound and the transit instrument ready. The exact time was sent out each evening over the wire to the railway companies, whose station clocks were set by it. On clear nights he logged the weather, the number of observations made, and the faint comets that only a quiet sky and a patient eye would yield.",
+  "question": "Who used the time signals sent over the wire?",
+  "register": "prose"
+}

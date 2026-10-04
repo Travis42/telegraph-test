@@ -1,0 +1,9 @@
+{
+  "expected_answer": "found, thirsty, and walking home",
+  "facts": [],
+  "id": "task_13",
+  "len_class": "short",
+  "passage": "The telegraph hut at the bore stood alone under a sky of brass. Its operator kept the line alive between the stations of the run, sending the number of cattle at each water hole and the weather in brief words. Yesterday a message about the missing rider had gone out, and this morning the answer came back: found, thirsty, and walking home along the wire.",
+  "question": "What news came back about the missing rider?",
+  "register": "prose"
+}

@@ -1,0 +1,9 @@
+{
+  "expected_answer": "hold the post",
+  "facts": [],
+  "id": "task_19",
+  "len_class": "short",
+  "passage": "The order came down from department headquarters in the spring: the garrison would hold the post through another season. The winter had passed quiet enough, with the deep snows keeping all parties near their own fires. The quartermaster received his stores, checked every sack and barrel, and reported the amount on hand to the commanding officer by the first mail.",
+  "question": "What would the garrison do through another season?",
+  "register": "prose"
+}

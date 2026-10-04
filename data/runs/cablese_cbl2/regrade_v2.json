@@ -1,0 +1,87 @@
+{
+  "anchoring_rejections": 95,
+  "answers_regraded": 3635,
+  "conditions": {
+    "A-CABLESE-DIRECT": {
+      "correct": 541,
+      "n": 727,
+      "v2_accuracy": 0.744154,
+      "wilson_ci": [
+        0.71121,
+        0.774531
+      ]
+    },
+    "A-FROM-CABLESE": {
+      "correct": 600,
+      "n": 727,
+      "v2_accuracy": 0.825309,
+      "wilson_ci": [
+        0.796018,
+        0.851181
+      ]
+    },
+    "A-FROM-PLAIN": {
+      "correct": 551,
+      "n": 727,
+      "v2_accuracy": 0.757909,
+      "wilson_ci": [
+        0.725469,
+        0.787638
+      ]
+    },
+    "A-PLAIN-DIRECT": {
+      "correct": 665,
+      "n": 727,
+      "v2_accuracy": 0.914718,
+      "wilson_ci": [
+        0.892172,
+        0.932904
+      ]
+    },
+    "DECODE": {
+      "correct": 573,
+      "n": 727,
+      "v2_accuracy": 0.788171,
+      "wilson_ci": [
+        0.756993,
+        0.816318
+      ]
+    }
+  },
+  "decode_ratio_v2": 0.861655,
+  "mcnemar_v2": {
+    "A-FROM-CABLESE_vs_A-FROM-PLAIN": {
+      "a": 462,
+      "b": 91,
+      "c": 38,
+      "d": 71,
+      "n": 662,
+      "p_value": 3e-06
+    },
+    "DECODE_vs_A-PLAIN-DIRECT": {
+      "a": 502,
+      "b": 15,
+      "c": 101,
+      "d": 44,
+      "n": 662,
+      "p_value": 0.0
+    }
+  },
+  "note": "grader v2 verdicts only (passage-anchored, deterministic); no LLM judges in the truth path; no new API calls were made",
+  "original_summary_sha256": "611185292fab5e299648ed169328d374f55d24ee7137c553ab4c688e388ccce0",
+  "record_tokens_v2": {
+    "R-CABLESE": {
+      "mean_approx_tokens": 115.339286,
+      "n_records": 56
+    },
+    "R-PLAIN": {
+      "mean_approx_tokens": 254.142857,
+      "n_records": 56
+    },
+    "note": "mean approx_tokens per record entry, recomputed from the ledger; no new API calls",
+    "savings_pct_v2": 54.616357
+  },
+  "recovery_ratio_v2": 1.088929,
+  "run_id": "cablese_cbl2_regrade_v2",
+  "source_run_dir": "/root/projects/token_codebook/results/cablese_cbl2"
+}

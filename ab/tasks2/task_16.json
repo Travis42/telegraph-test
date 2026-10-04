@@ -1,0 +1,9 @@
+{
+  "expected_answer": "Liverpool",
+  "facts": [],
+  "id": "task_16",
+  "len_class": "short",
+  "passage": "On the floor of the exchange the brokers watched the board as the quotations came in. The morning report showed a firm market; a duplicate of the wire from Liverpool confirmed the advance. One house, having paid heavily for fast service, received the figures a full hour before its rivals and made a handsome order before the trade understood what had moved the price.",
+  "question": "Which city's wire confirmed the advance?",
+  "register": "prose"
+}

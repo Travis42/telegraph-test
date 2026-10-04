@@ -1,0 +1,9 @@
+{
+  "expected_answer": "on a shelf of rock above the glacier",
+  "facts": [],
+  "id": "task_14",
+  "len_class": "short",
+  "passage": "The party camped on a shelf of rock above the glacier, and the guide fixed the location of the tents against the evening light. Clouds gathered, but the weather held kind through the night. In the morning the leader wrote in his book that the pass was open, that all members were good for the climb, and that a message would be sent from the valley on the morrow.",
+  "question": "Where did the party camp?",
+  "register": "prose"
+}

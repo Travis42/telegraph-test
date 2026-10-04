@@ -1,0 +1,20 @@
+{
+  "expected_answer": "5",
+  "facts": [
+    "checklist name is nightly-verify",
+    "checklist version is 3",
+    "checklist has 5 items",
+    "item 1 snapshot exists is done",
+    "item 2 checksums match is done",
+    "item 3 restore test ok is done",
+    "item 4 metrics exported is done",
+    "item 5 report posted is done",
+    "state is all done",
+    "owner is librarian"
+  ],
+  "id": "for_10",
+  "len_class": "short",
+  "passage": "CHECKLIST name=nightly-verify v=3 items=5 [1]snapshot-exists [2]checksums-match [3]restore-test-ok [4]metrics-exported [5]report-posted state=all-done owner=librarian",
+  "question": "How many items are in the nightly-verify checklist?",
+  "register": "formulaic"
+}

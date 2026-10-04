@@ -1,0 +1,10 @@
+[
+  {
+    "anchor_score": 0.0,
+    "answer": "two",
+    "q_index": 7,
+    "q_type": "numeric",
+    "question": "How many people are mentioned in the passage?",
+    "task_id": "task_06"
+  }
+]

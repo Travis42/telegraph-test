@@ -1,0 +1,25 @@
+{
+  "expected_answer": "Swansea",
+  "facts": [
+    "The Rio Tinto Copper Company shipped 1,240 ingots of refined copper from Huelva.",
+    "The shipment date was 28 May 1888.",
+    "The carrying vessel was the sailing barque Andromache.",
+    "The cargo was bound for Swansea.",
+    "The ingots weighed 112 tons in total.",
+    "The cargo was valued at 8,400 pounds sterling.",
+    "The Andromache was of 598 tons register.",
+    "Her captain was Captain Ruiz.",
+    "The expected passage was eleven days.",
+    "She was delayed by calms off Cape St. Vincent for four days.",
+    "Insurance was written at Lloyd's at a premium of one and three-quarters percent.",
+    "The agent in Swansea was Morris and Sons.",
+    "No ingot was to be sold below 64 pounds per ton.",
+    "300 ingots were stamped with the company mark of 1887.",
+    "Two ingots were set aside at Huelva as assay samples and not shipped."
+  ],
+  "id": "fact_med_03",
+  "len_class": "medium",
+  "passage": "The Rio Tinto Copper Company shipped 1,240 ingots of refined copper from Huelva on 28 May 1888 aboard the sailing barque Andromache, bound for Swansea. The ingots weighed in total 112 tons and were valued at 8,400 pounds sterling. The Andromache, a vessel of 598 tons register under Captain Ruiz, expected to make the passage in eleven days but was delayed by calms off Cape St. Vincent for four days. Insurance for the cargo was written at Lloyd's at a premium of one and three-quarters percent. The company's agent in Swansea, Morris and Sons, was instructed to sell no ingot below 64 pounds per ton. Of the 1,240 ingots, 300 were stamped with the company mark of 1887 and the remainder with the mark of 1888. Two ingots were set aside at Huelva as assay samples and were not shipped.",
+  "question": "Where was the copper cargo bound for?",
+  "register": "fact"
+}

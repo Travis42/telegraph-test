@@ -1,0 +1,9 @@
+{
+  "expected_answer": "three days",
+  "facts": [],
+  "id": "task_01",
+  "len_class": "short",
+  "passage": "The barque Meridian lay becalmed off the cape for three days, her canvas slack against the masts. The captain at last took his pencil and wrote a message to the owners in Bristol, noting the quiet sea and the fine, warm weather, and promising a full report upon his arrival at the port of Valparaiso by the first week of June.",
+  "question": "How long was the barque Meridian becalmed?",
+  "register": "prose"
+}

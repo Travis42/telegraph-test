@@ -1,0 +1,179 @@
+{
+  "bootstrap_corrected_95": [
+    1.0,
+    1.0
+  ],
+  "bootstrap_raw_95": [
+    0.941176,
+    1.0
+  ],
+  "dedupe": {
+    "drop_rate": 0.222222,
+    "dropped": 8,
+    "kept": 28,
+    "threshold": 0.6
+  },
+  "git_sha": "9eba0af676b1ee5601b0248d16a0a942192f31aa",
+  "judge": {
+    "grader_false_negative_rate": 1.0,
+    "grader_false_positive_rate_estimate": 0.0,
+    "hits_sampled": 27,
+    "misses_judged": 1,
+    "parse_rate": 1.0,
+    "verdicts_all": {
+      "ambiguous": 0,
+      "grader_wrong": 28,
+      "partial": 0,
+      "unparsed": 0,
+      "wrong": 0
+    }
+  },
+  "judge_correction_note": "corrected accuracy counts judged grader_wrong misses as correct; ALL misses are judged so the correction is complete and slice-invariant. Hit verdicts (sampled) feed the false-positive estimate only and are NOT folded into the corrected headline.",
+  "miss_taxonomy": {
+    "ambiguous": 0,
+    "grader_wrong": 1,
+    "partial": 0,
+    "unjudged": 0,
+    "unparsed": 0,
+    "wrong": 0
+  },
+  "overall_corrected": {
+    "accuracy": 1.0,
+    "correct": 28,
+    "n": 28,
+    "wilson_95": [
+      0.879357,
+      1.0
+    ]
+  },
+  "overall_raw": {
+    "accuracy": 0.964286,
+    "correct": 27,
+    "n": 28,
+    "wilson_95": [
+      0.822878,
+      0.993667
+    ]
+  },
+  "passages": 2,
+  "per_passage": [
+    {
+      "corrected_correct": 17,
+      "n": 17,
+      "raw_accuracy": 0.941176,
+      "raw_correct": 16,
+      "register": "fact",
+      "task_id": "fact_med_03"
+    },
+    {
+      "corrected_correct": 11,
+      "n": 11,
+      "raw_accuracy": 1.0,
+      "raw_correct": 11,
+      "register": "fact",
+      "task_id": "fact_med_04"
+    }
+  ],
+  "per_register_corrected": {
+    "fact": {
+      "accuracy": 1.0,
+      "correct": 28,
+      "n": 28,
+      "wilson_95": [
+        0.879357,
+        1.0
+      ]
+    }
+  },
+  "per_register_raw": {
+    "fact": {
+      "accuracy": 0.964286,
+      "correct": 27,
+      "n": 28,
+      "wilson_95": [
+        0.822878,
+        0.993667
+      ]
+    }
+  },
+  "per_type_corrected": {
+    "fact": {
+      "accuracy": 1.0,
+      "correct": 22,
+      "n": 22,
+      "wilson_95": [
+        0.851345,
+        1.0
+      ]
+    },
+    "inference": {
+      "accuracy": 1.0,
+      "correct": 2,
+      "n": 2,
+      "wilson_95": [
+        0.34238,
+        1.0
+      ]
+    },
+    "numeric": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "n": 1,
+      "wilson_95": [
+        0.206549,
+        1.0
+      ]
+    },
+    "ordering": {
+      "accuracy": 1.0,
+      "correct": 3,
+      "n": 3,
+      "wilson_95": [
+        0.438503,
+        1.0
+      ]
+    }
+  },
+  "per_type_raw": {
+    "fact": {
+      "accuracy": 1.0,
+      "correct": 22,
+      "n": 22,
+      "wilson_95": [
+        0.851345,
+        1.0
+      ]
+    },
+    "inference": {
+      "accuracy": 0.5,
+      "correct": 1,
+      "n": 2,
+      "wilson_95": [
+        0.094531,
+        0.905469
+      ]
+    },
+    "numeric": {
+      "accuracy": 1.0,
+      "correct": 1,
+      "n": 1,
+      "wilson_95": [
+        0.206549,
+        1.0
+      ]
+    },
+    "ordering": {
+      "accuracy": 1.0,
+      "correct": 3,
+      "n": 3,
+      "wilson_95": [
+        0.438503,
+        1.0
+      ]
+    }
+  },
+  "questions_per_passage_plan": 24,
+  "run_id": "baseline_20261003_143020",
+  "slice_id": "0003",
+  "task_offset": 8
+}

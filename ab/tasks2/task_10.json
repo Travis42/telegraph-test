@@ -1,0 +1,9 @@
+{
+  "expected_answer": "north by west",
+  "facts": [],
+  "id": "task_10",
+  "len_class": "short",
+  "passage": "All night the keeper of the light watched the weather gauge and trimmed the wicks. At dawn he entered the morning in the log: wind north by west, sea moderate, one steam trawler standing to the east. The station had received its supplies the week before, and the lamp, which had burned every night for nine years, had never once gone dark.",
+  "question": "What direction was the wind at dawn?",
+  "register": "prose"
+}

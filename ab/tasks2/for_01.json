@@ -1,0 +1,18 @@
+{
+  "expected_answer": "44%",
+  "facts": [
+    "host is api-01",
+    "role is web",
+    "cpu is 72%",
+    "mem is 61%",
+    "disk is 44%",
+    "net is ok",
+    "uptime is 14d",
+    "version is 2.3.1"
+  ],
+  "id": "for_01",
+  "len_class": "short",
+  "passage": "STATUS host=api-01 role=web cpu=72% mem=61% disk=44% net=ok uptime=14d version=2.3.1 notes=none",
+  "question": "What is the disk usage on api-01?",
+  "register": "formulaic"
+}

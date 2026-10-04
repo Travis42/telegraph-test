@@ -1,0 +1,9 @@
+{
+  "expected_answer": "an order for loaves for a church social",
+  "facts": [],
+  "id": "task_22",
+  "len_class": "short",
+  "passage": "The baker on Wharf Street rose at four, as his father had done before him. This morning he found a note under the door: an order for loaves to feed a church social, about twice the usual quantity. He sent his boy round with an answer before school, mixed the sponge, and by seven the shop smelled of good bread and the day had begun properly.",
+  "question": "What was the note under the door?",
+  "register": "prose"
+}

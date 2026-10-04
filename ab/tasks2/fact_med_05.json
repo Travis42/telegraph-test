@@ -1,0 +1,26 @@
+{
+  "expected_answer": "1,207 chests",
+  "facts": [
+    "The tea clipper Fiery Star cleared Foochow on 21 June 1866.",
+    "She carried 1,207 chests of tea for London.",
+    "She was drawing 19 feet of water.",
+    "Her owner was George Thompson of Aberdeen.",
+    "She was fitted with Green's patent topsail yards that season.",
+    "Her best day's run was 328 miles.",
+    "The best run was logged on 30 June in the China Sea.",
+    "She anchored at Anjer on 8 July.",
+    "At Anjer she took on 11 tons of coal and fresh provisions.",
+    "The passage to the Lizard took 89 days.",
+    "She arrived on 18 September.",
+    "She arrived six days behind the Serica.",
+    "The cargo sold at an average of two shillings and ninepence per pound.",
+    "Her crew numbered 33 hands.",
+    "Four of the crew were apprentices.",
+    "The apprentice David Bruce kept a log of the voyage."
+  ],
+  "id": "fact_med_05",
+  "len_class": "medium",
+  "passage": "The tea clipper Fiery Star cleared Foochow on 21 June 1866 with 1,207 chests of tea for London, drawing 19 feet of water. Her owner, George Thompson of Aberdeen, had fitted her with Green's patent topsail yards that season, and she made 328 miles in her best day's run, logged on 30 June in the China Sea. She anchored at Anjer on 8 July, took on 11 tons of coal and fresh provisions, and sailed again the same evening. The passage to the Lizard took 89 days, the ship arriving on 18 September, six days behind the Serica, which carried the season's first market. The Fiery Star's cargo sold at an average of two shillings and ninepence per pound. Her crew numbered 33 hands, of whom four were apprentices; one apprentice, David Bruce, kept a log of the voyage later deposited at the Aberdeen Maritime Museum.",
+  "question": "How many chests of tea did the Fiery Star carry?",
+  "register": "fact"
+}

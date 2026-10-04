@@ -1,0 +1,19 @@
+{
+  "expected_answer": "2s",
+  "facts": [
+    "host is db-02",
+    "role is postgres-replica",
+    "cpu is 35%",
+    "mem is 82%",
+    "disk is 70%",
+    "net is ok",
+    "uptime is 203d",
+    "version is 15.4",
+    "replication lag is 2s"
+  ],
+  "id": "for_04",
+  "len_class": "short",
+  "passage": "STATUS host=db-02 role=postgres-replica cpu=35% mem=82% disk=70% net=ok uptime=203d version=15.4 notes=replication-lag=2s",
+  "question": "What is the replication lag on db-02?",
+  "register": "formulaic"
+}

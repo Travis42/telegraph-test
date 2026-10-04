@@ -1,0 +1,27 @@
+{
+  "expected_answer": "340 feet",
+  "facts": [
+    "The dispatch from Broken Hill was dated 15 September 1893.",
+    "The new shaft reached the lode at 340 feet.",
+    "Sinking began on 1 July.",
+    "Eleven weeks passed after sinking began.",
+    "The first crosscut assayed 22 ounces of silver to the ton.",
+    "The lode width was 4 feet.",
+    "The company was Silver Queen Proprietary.",
+    "87 men were employed underground.",
+    "44 men were employed on the surface.",
+    "The mine manager was Daniel Callaghan.",
+    "Callaghan had come from Kalgoorlie that April.",
+    "Two winding engines of 60 indicated horsepower each had been erected.",
+    "A third engine was on order from Mort's Foundry of Sydney.",
+    "The third engine cost 1,850 pounds.",
+    "Water ingress was 900 gallons per hour.",
+    "Wages were raised by two shillings per shift following the strike of August.",
+    "The retorts yielded 3,100 ounces of silver for the month."
+  ],
+  "id": "fact_med_06",
+  "len_class": "medium",
+  "passage": "The mining company dispatch from Broken Hill, dated 15 September 1893, reported that the new shaft had reached the lode at 340 feet, eleven weeks after sinking began on 1 July. The assay of the first crosscut returned 22 ounces of silver to the ton over a width of 4 feet. The company, Silver Queen Proprietary, employed 87 men underground and 44 on the surface, under mine manager Daniel Callaghan, who had come from Kalgoorlie that April. Two winding engines of 60 indicated horsepower each had been erected on the surface, and a third was on order from Mort's Foundry of Sydney at a cost of 1,850 pounds. Water ingress at the shaft bottom was measured at 900 gallons per hour and handled by a Cornish pump. The dispatch further noted that wages had been raised by two shillings per shift following the strike of August, and that the amalgam retorts had yielded 3,100 ounces of silver for the month.",
+  "question": "At what depth did the new shaft reach the lode?",
+  "register": "fact"
+}

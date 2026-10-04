@@ -1,0 +1,9 @@
+{
+  "expected_answer": "interference from a near power line",
+  "facts": [],
+  "id": "task_12",
+  "len_class": "short",
+  "passage": "At the amateur station the young operator tuned his set after supper and called the evening company of the air. Interference from a near power line raised a hiss across the band, but a distant station came through at last, strong enough for a short exchange about antennas and the fading season, before the household demanded the lamp and bed.",
+  "question": "What made a hiss across the band?",
+  "register": "prose"
+}

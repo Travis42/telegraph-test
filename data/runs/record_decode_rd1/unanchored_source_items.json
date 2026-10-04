@@ -1,0 +1,154 @@
+[
+  {
+    "anchor_score": 0.5,
+    "answer": "459 (500 aboard minus 41 survivors)",
+    "q_index": 16,
+    "q_type": "inference",
+    "question": "Combining the number aboard with the number who survived, how many people lost their lives?",
+    "task_id": "fact_long_01"
+  },
+  {
+    "anchor_score": 0.5,
+    "answer": "7,000,000 pounds",
+    "q_index": 17,
+    "q_type": "inference",
+    "question": "By how many pounds did the season's clip exceed that of the previous season?",
+    "task_id": "fact_long_05"
+  },
+  {
+    "anchor_score": 0.75,
+    "answer": "one shilling per pound",
+    "q_index": 19,
+    "q_type": "inference",
+    "question": "At approximately what price per pound did the S.A. Bienvenida wool sell?",
+    "task_id": "fact_long_05"
+  },
+  {
+    "anchor_score": 0.333333,
+    "answer": "about 132 tons",
+    "q_index": 13,
+    "q_type": "inference",
+    "question": "Roughly how many tons of coal would the engines have consumed over the whole six-day passage?",
+    "task_id": "fact_med_01"
+  },
+  {
+    "anchor_score": 0.5,
+    "answer": "twenty-five",
+    "q_index": 14,
+    "q_type": "inference",
+    "question": "How many people were aboard in total, combining the crew and the officers?",
+    "task_id": "fact_med_01"
+  },
+  {
+    "anchor_score": 0.727273,
+    "answer": "departure from Huelva, delay off Cape St. Vincent, sale in Swansea",
+    "q_index": 12,
+    "q_type": "ordering",
+    "question": "Arrange in chronological order: the vessel's departure, the delay by calms, and the sale of the cargo by Morris and Sons.",
+    "task_id": "fact_med_03"
+  },
+  {
+    "anchor_score": 0.666667,
+    "answer": "75 pounds sterling",
+    "q_index": 13,
+    "q_type": "inference",
+    "question": "What was the average value per ton of the cargo?",
+    "task_id": "fact_med_03"
+  },
+  {
+    "anchor_score": 0.5,
+    "answer": "fifteen days",
+    "q_index": 13,
+    "q_type": "inference",
+    "question": "Given the expected passage time and the delay, what was the shortest possible duration of the voyage?",
+    "task_id": "fact_med_03"
+  },
+  {
+    "anchor_score": 0.0,
+    "answer": "1,242",
+    "q_index": 14,
+    "q_type": "inference",
+    "question": "How many ingots existed at Huelva in total before the assay samples were set aside?",
+    "task_id": "fact_med_03"
+  },
+  {
+    "anchor_score": 0.5,
+    "answer": "fifteen days",
+    "q_index": 14,
+    "q_type": "inference",
+    "question": "What is the minimum number of days the passage from Huelva to Swansea could have taken?",
+    "task_id": "fact_med_03"
+  },
+  {
+    "anchor_score": 0.5,
+    "answer": "131 men",
+    "q_index": 15,
+    "q_type": "inference",
+    "question": "What was the company's total workforce, combining underground and surface employees?",
+    "task_id": "fact_med_06"
+  },
+  {
+    "anchor_score": 0.0,
+    "answer": "three",
+    "q_index": 16,
+    "q_type": "inference",
+    "question": "Once the engine on order arrives, how many winding engines will the mine have in total?",
+    "task_id": "fact_med_06"
+  },
+  {
+    "anchor_score": 0.0,
+    "answer": "2",
+    "q_index": 10,
+    "q_type": "numeric",
+    "question": "How many tasks are listed for yesterday?",
+    "task_id": "for_05"
+  },
+  {
+    "anchor_score": 0.0,
+    "answer": "after",
+    "q_index": 15,
+    "q_type": "ordering",
+    "question": "Is the hours field listed before or after the blockers field?",
+    "task_id": "for_05"
+  },
+  {
+    "anchor_score": 0.0,
+    "answer": "yes",
+    "q_index": 11,
+    "q_type": "inference",
+    "question": "Does the config enable more features than it disables?",
+    "task_id": "for_13"
+  },
+  {
+    "anchor_score": 0.0,
+    "answer": "two",
+    "q_index": 7,
+    "q_type": "numeric",
+    "question": "How many people are mentioned in the passage?",
+    "task_id": "task_06"
+  },
+  {
+    "anchor_score": 0.0,
+    "answer": "autumn (fall)",
+    "q_index": 13,
+    "q_type": "inference",
+    "question": "What season does \"the fading season\" most likely refer to?",
+    "task_id": "task_12"
+  },
+  {
+    "anchor_score": 0.666667,
+    "answer": "the household demanded the lamp and bed (it was bedtime)",
+    "q_index": 15,
+    "q_type": "inference",
+    "question": "Why did the exchange with the distant station come to an end?",
+    "task_id": "task_12"
+  },
+  {
+    "anchor_score": 0.0,
+    "answer": "one",
+    "q_index": 10,
+    "q_type": "numeric",
+    "question": "How many written orders did the winning bidder send?",
+    "task_id": "task_21"
+  }
+]
