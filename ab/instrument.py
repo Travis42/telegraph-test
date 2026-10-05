@@ -136,10 +136,14 @@ def _extract_usage(response):
         )
     usage = response["usage"]
     try:
+        details = usage.get("completion_tokens_details") or {}
         return {
             "prompt_tokens": usage["prompt_tokens"],
             "completion_tokens": usage["completion_tokens"],
             "total_tokens": usage["total_tokens"],
+            # Billed-but-invisible thinking: absent in frozen cbl2-era
+            # ledgers (extractor predates the field), present from now on.
+            "reasoning_tokens": details.get("reasoning_tokens"),
         }
     except (KeyError, TypeError) as exc:
         raise InstrumentError(
