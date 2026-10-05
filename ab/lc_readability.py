@@ -69,10 +69,34 @@ def load_cbl2_quiz_items(ledger_path=CBL2_LEDGER):
     return by_task
 
 
-def run(results_dir, limit=None, model=DEFAULT_MODEL):
+def run(results_dir, limit=None, model=DEFAULT_MODEL, provider="zai",
+        reasoning_mode=None, records_from=None):
     os.makedirs(results_dir, exist_ok=True)
     ledger_path = os.path.join(results_dir, "ledger.jsonl")
     summary_path = os.path.join(results_dir, "summary.json")
+
+    if provider == "openrouter":
+        from ab.crossmodel import make_openrouter_client
+        client = make_openrouter_client(reasoning_mode=reasoning_mode)
+    else:
+        client = default_client
+
+    # Optionally reuse lowercase records written by a prior run (foreign
+    # readers must read the SAME records the in-family reader read).
+    reused_records = None
+    if records_from:
+        reused_records = {}
+        with open(records_from, encoding="utf-8") as fh:
+            for line in fh:
+                try:
+                    rec = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                if (rec.get("type") == "record"
+                        and rec.get("condition") == "R-CABLESE-LOWERCASE"):
+                    reused_records[rec["task_id"]] = rec["text"]
+        if not reused_records:
+            sys.exit(f"error: no R-CABLESE-LOWERCASE records in {records_from}")
 
     tasks = load_tasks(TASKS2_DIR)
     if limit is not None:
@@ -99,11 +123,18 @@ def run(results_dir, limit=None, model=DEFAULT_MODEL):
         for ti, task in enumerate(tasks):
             tid = task["id"]
             # 1) write the lowercase cablese record (default thinking)
-            system = RECORD_CABLESE_SYSTEM + " " + LOWERCASE_SUFFIX
-            user = (RECORD_CABLESE_USER + " " + LOWERCASE_SUFFIX).format(
-                passage=task["passage"])
-            wres = call_model(client, model, system, user, 4000)
-            record = wres["raw"]
+            #    — or reuse the prior run's record for foreign readers
+            if reused_records is not None:
+                if tid not in reused_records:
+                    sys.exit(f"error: no reused record for {tid}")
+                record = reused_records[tid]
+                wres = {"usage": None, "latency_ms": None}
+            else:
+                system = RECORD_CABLESE_SYSTEM + " " + LOWERCASE_SUFFIX
+                user = (RECORD_CABLESE_USER + " " + LOWERCASE_SUFFIX).format(
+                    passage=task["passage"])
+                wres = call_model(client, model, system, user, 4000)
+                record = wres["raw"]
             fh.write(json.dumps({
                 "type": "record", "condition": "R-CABLESE-LOWERCASE",
                 "task_id": tid, "text": record,
@@ -145,6 +176,8 @@ def run(results_dir, limit=None, model=DEFAULT_MODEL):
     summary = {
         "condition": "A-FROM-CABLESE-LOWERCASE",
         "model": model,
+        "provider": provider,
+        "records_reused_from": records_from,
         "n_items": n_total,
         "n_anchored": n_anchored,
         "accuracy_v2": round(acc, 4) if acc is not None else None,
@@ -167,8 +200,16 @@ def main(argv=None):
     p.add_argument("--results-dir", required=True)
     p.add_argument("--limit", type=int, default=None,
                    help="cap the task list (default: all 50)")
+    p.add_argument("--model", default=DEFAULT_MODEL)
+    p.add_argument("--provider", choices=("zai", "openrouter"),
+                   default="zai")
+    p.add_argument("--reasoning-mode", default=None,
+                   help="e.g. effort_low for gpt-5-mini readers")
+    p.add_argument("--records-from", default=None,
+                   help="prior lc_readability ledger to reuse records from")
     args = p.parse_args(argv)
-    run(args.results_dir, args.limit)
+    run(args.results_dir, args.limit, args.model, args.provider,
+        args.reasoning_mode, args.records_from)
 
 
 if __name__ == "__main__":
