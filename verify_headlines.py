@@ -54,6 +54,44 @@ check("rd1 decode_ratio_rec (README 0.976)", rd["decode_ratio_rec"], 0.976)
 rt = rd["record_tokens"]
 check("rd1 decoded stays 40% leaner (README 0.596)", rt["decoded_vs_plain_ratio"], 0.596)
 
+# --- 4. meter-basis savings (2026-10-05 probes + xm4 usage recompute) -------
+import statistics as _st
+def _med(vals):
+    vals = [v for v in vals if v is not None]
+    return _st.median(vals) if vals else None
+
+glm = load("billing_reasoning_off_20261005/summary.json")
+check("GLM meter savings, thinking off (README 33.9%)",
+      glm["savings_pct_billing_basis"] / 100, 0.339)
+
+g5 = load("billing_gpt5mini_effortlow_20261005/summary.json")
+check("gpt-5-mini meter savings, effort=low (README -99.8%)",
+      g5["savings_pct_billing_basis"] / 100, -0.998)
+
+def _probe_visible(path):
+    vis = {"R-PLAIN": [], "R-CABLESE": []}
+    for line in open(path):
+        r = json.loads(line)
+        if r.get("type") != "billing_record":
+            continue
+        u = r["usage"]
+        vis[r["condition"]].append(u["completion_tokens"] - (u.get("reasoning_tokens") or 0))
+    return vis
+v5 = _probe_visible(os.path.join(RUNS, "billing_gpt5mini_effortlow_20261005/ledger.jsonl"))
+check("gpt-5-mini visible-text savings (README 22.6%)",
+      1 - _med(v5["R-CABLESE"]) / _med(v5["R-PLAIN"]), 0.226)
+
+xm_billed = {}
+for line in open(os.path.join(RUNS, "crossmodel_xm4/ledger.jsonl")):
+    r = json.loads(line)
+    if r.get("type") != "model_call" or not r.get("call", "").startswith("record_"):
+        continue
+    xm_billed.setdefault((r.get("model"), r["call"]), []).append(r["usage"]["completion_tokens"])
+gm = _med(xm_billed[("google/gemma-4-31b-it", "record_R-CABLESE")]) / _med(xm_billed[("google/gemma-4-31b-it", "record_R-PLAIN")])
+check("gemma meter savings (README 25.0%)", 1 - gm, 0.250)
+qm = _med(xm_billed[("qwen/qwen3.8-27b", "record_R-CABLESE")]) / _med(xm_billed[("qwen/qwen3.8-27b", "record_R-PLAIN")])
+check("qwen meter savings (README 29.8%)", 1 - qm, 0.298)
+
 # --- report ------------------------------------------------------------------
 print(f"{'check':55s} {'computed':>10s} {'README':>8s}  ok")
 print("-" * 84)
