@@ -51,7 +51,8 @@ def median_or_none(values):
     return statistics.median(vals) if vals else None
 
 
-def run(results_dir, passages, model, provider, reasoning_mode):
+def run(results_dir, passages, model, provider, reasoning_mode,
+        cablese_suffix=""):
     if os.environ.get("TCB_REASONING_OFF") != "1":
         sys.exit(
             "error: billing_probe measures the thinking-off billing basis; "
@@ -76,6 +77,7 @@ def run(results_dir, passages, model, provider, reasoning_mode):
             "model": model,
             "provider": provider,
             "reasoning_mode": reasoning_mode,
+            "cablese_suffix": cablese_suffix,
             "reasoning_off": True,
             "tasks": len(tasks),
         }
@@ -83,6 +85,9 @@ def run(results_dir, passages, model, provider, reasoning_mode):
 
         for task in tasks:
             for cond, system, user_tmpl in CONDITIONS:
+                if cablese_suffix and cond == "R-CABLESE":
+                    system = system + " " + cablese_suffix.strip()
+                    user_tmpl = user_tmpl + " " + cablese_suffix.strip()
                 started = time.monotonic()
                 result = call_model(
                     client, model, system,
@@ -158,9 +163,12 @@ def main(argv=None):
                    default="zai")
     p.add_argument("--reasoning-mode", default=None,
                    help="e.g. effort_low for reasoning-mandatory OR models")
+    p.add_argument("--cablese-suffix", default="",
+                   help="extra instruction appended to the cablese prompt "
+                        "(e.g. casing variants)")
     args = p.parse_args(argv)
     run(args.results_dir, args.passages, args.model, args.provider,
-        args.reasoning_mode)
+        args.reasoning_mode, args.cablese_suffix)
 
 
 if __name__ == "__main__":
