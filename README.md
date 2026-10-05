@@ -20,6 +20,8 @@ Same facts. Half the words. *Cablese* is the historical word for it — attested
 
 **→ [Run the demo in Google Colab](https://colab.research.google.com/github/Travis42/telegraph-test/blob/master/notebooks/telegraph_test.ipynb)** — one click, no setup, no key: frozen results replay instantly; an optional live mode lets you compress your own text with an OpenRouter key.
 
+Related: [BabelTele](https://arxiv.org/abs/2606.19857) (arXiv 2606.19857) proves the general phenomenon — models compressing text for model readers — with *invented*, non-human-readable forms. The Telegraph Test measures the human-register corner of that frontier: a 160-year-old shared dialect, zero-shot elicitation, cold readers, deterministic grading.
+
 ## Headline results (all deterministically graded — no LLM judges anywhere in the truth path)
 
 | Measurement | Result |
