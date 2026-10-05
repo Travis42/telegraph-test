@@ -1,0 +1,23 @@
+{
+  "run_id": "billing_probe_20261005_203928",
+  "model": "zai/glm-5.3-flash",
+  "provider": "zai",
+  "reasoning_mode": null,
+  "reasoning_off": true,
+  "R-PLAIN": {
+    "n": 50,
+    "approx_tokens_median": 147.5,
+    "billed_completion_median": 106.5,
+    "reasoning_tokens_median": 0.0,
+    "latency_ms_median": 4032.952
+  },
+  "R-CABLESE": {
+    "n": 50,
+    "approx_tokens_median": 72.5,
+    "billed_completion_median": 55.0,
+    "reasoning_tokens_median": 0.0,
+    "latency_ms_median": 2743.7325
+  },
+  "savings_pct_storage_basis": 50.8,
+  "savings_pct_billing_basis": 48.4
+}

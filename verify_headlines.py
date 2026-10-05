@@ -92,6 +92,10 @@ check("gemma meter savings (README 25.0%)", 1 - gm, 0.250)
 qm = _med(xm_billed[("qwen/qwen3.8-27b", "record_R-CABLESE")]) / _med(xm_billed[("qwen/qwen3.8-27b", "record_R-PLAIN")])
 check("qwen meter savings (README 29.8%)", 1 - qm, 0.298)
 
+lc = load("billing_glm_lowercase_20261005/summary.json")
+check("GLM meter savings, lowercase cablese (README 48.4%)",
+      lc["savings_pct_billing_basis"] / 100, 0.484)
+
 # --- report ------------------------------------------------------------------
 print(f"{'check':55s} {'computed':>10s} {'README':>8s}  ok")
 print("-" * 84)
