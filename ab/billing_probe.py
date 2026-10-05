@@ -37,6 +37,7 @@ from ab.cablese import (
 )
 from ab.expAB import DEFAULT_MAX_TOKENS, DEFAULT_MODEL
 from ab.instrument import call_model, default_client
+from ab.crossmodel import make_openrouter_client
 from ab.run_v21 import TASKS2_DIR, load_tasks
 
 CONDITIONS = (
@@ -50,7 +51,7 @@ def median_or_none(values):
     return statistics.median(vals) if vals else None
 
 
-def run(results_dir, passages, model):
+def run(results_dir, passages, model, provider, reasoning_mode):
     if os.environ.get("TCB_REASONING_OFF") != "1":
         sys.exit(
             "error: billing_probe measures the thinking-off billing basis; "
@@ -65,13 +66,16 @@ def run(results_dir, passages, model):
     if passages is not None:
         tasks = tasks[:passages]
 
-    client = default_client
+    client = (make_openrouter_client(reasoning_mode=reasoning_mode)
+              if provider == "openrouter" else default_client)
     per_cond = {cond: [] for cond, _, _ in CONDITIONS}
     with open(ledger_path, "w", encoding="utf-8") as fh:
         meta = {
             "type": "run_meta",
             "run_id": f"billing_probe_{stamp}",
             "model": model,
+            "provider": provider,
+            "reasoning_mode": reasoning_mode,
             "reasoning_off": True,
             "tasks": len(tasks),
         }
@@ -129,6 +133,8 @@ def run(results_dir, passages, model):
     summary = {
         "run_id": meta["run_id"],
         "model": model,
+        "provider": provider,
+        "reasoning_mode": reasoning_mode,
         "reasoning_off": True,
         "R-PLAIN": plain,
         "R-CABLESE": cablese,
@@ -148,8 +154,13 @@ def main(argv=None):
     p.add_argument("--passages", type=int, default=None,
                    help="cap the task list (default: all)")
     p.add_argument("--model", default=DEFAULT_MODEL)
+    p.add_argument("--provider", choices=("zai", "openrouter"),
+                   default="zai")
+    p.add_argument("--reasoning-mode", default=None,
+                   help="e.g. effort_low for reasoning-mandatory OR models")
     args = p.parse_args(argv)
-    run(args.results_dir, args.passages, args.model)
+    run(args.results_dir, args.passages, args.model, args.provider,
+        args.reasoning_mode)
 
 
 if __name__ == "__main__":

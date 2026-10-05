@@ -203,6 +203,16 @@ def _reasoning_mandatory_detail(detail):
             and ("mandatory" in lower or "cannot be disabled" in lower))
 
 
+def _with_reasoning_mode(payload, mode):
+    """Apply an explicit reasoning mode ('effort_low' etc.) for models
+    where the unified disable is rejected (gpt-5-mini: 'Reasoning is
+    mandatory for this endpoint and cannot be disabled', 400)."""
+    if mode == "effort_low":
+        return {**payload,
+                "reasoning": {"effort": "low", "exclude": True}}
+    raise ValueError(f"unknown reasoning_mode {mode!r}")
+
+
 def _with_reasoning_disable(payload):
     """Pin the unified OpenRouter reasoning-disable param unless the
     model is known reasoning-mandatory (then omit it entirely)."""
@@ -232,7 +242,8 @@ def make_openrouter_client():
                 "error: OR_API_KEY is not set in the environment; "
                 "export OR_API_KEY=<your key> and re-run."
             )
-        payload = _with_reasoning_disable(payload)
+        payload = _with_reasoning_disable(payload) if reasoning_mode is None \
+            else _with_reasoning_mode(payload, reasoning_mode)
         url = os.environ.get("OR_API_URL", OR_API_URL_DEFAULT)
         body = json.dumps(payload).encode("utf-8")
         request = urllib.request.Request(
