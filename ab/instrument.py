@@ -196,9 +196,17 @@ def call_model(client, model, system, user, max_tokens, parse=None):
         "max_tokens": max_tokens,
     }
     if os.environ.get("TCB_REASONING_OFF") == "1":
-        # openrouter reasoning models can return content=null with the
-        # answer in reasoning_content; opt-in non-thinking mode instead.
-        payload["reasoning"] = {"enabled": False}
+        # zai coding endpoint ignores the OpenAI-compat `reasoning`
+        # object (verified 2026-10-05: reasoning:{enabled:false} still
+        # billed 168 reasoning tokens on a 4-token answer;
+        # thinking.type=disabled bills 0). Use the native param for
+        # zai/ models; OpenRouter keeps the reasoning object it honors.
+        if model.startswith("zai/"):
+            payload["thinking"] = {"type": "disabled"}
+        else:
+            # openrouter reasoning models can return content=null with
+            # the answer in reasoning_content; opt-out instead.
+            payload["reasoning"] = {"enabled": False}
     started = time.monotonic()
     response = _call_with_backoff(client, payload)
     latency_ms = round((time.monotonic() - started) * 1000.0, 3)
