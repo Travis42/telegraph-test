@@ -221,7 +221,7 @@ def _with_reasoning_disable(payload):
     return {**payload, "reasoning": {"enabled": False}}
 
 
-def make_openrouter_client():
+def make_openrouter_client(reasoning_mode=None):
     """Minimal stdlib HTTP client for the OpenRouter endpoint. The
     endpoint URL comes from OR_API_URL (default
     https://openrouter.ai/api/v1/chat/completions); the key must be in
