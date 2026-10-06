@@ -28,7 +28,8 @@ Related: [BabelTele](https://arxiv.org/abs/2606.19857) (arXiv 2606.19857) proves
 |---|---|
 | Token savings, cablese records (GLM-5.3-Flash, provider meter) | **33.9%** (thinking-off probe, ledger-recomputed) |
 | Token savings, same records (character basis) | 54.6% (frozen cbl2; both bases in the ledgers) |
-| Token savings, **lowercase** cablese instruction (GLM, provider meter) | **48.4%** — the register compresses; ALL-CAPS styling costs ~15 points |
+| Token savings, **lowercase** cablese instruction (provider meters) | **GLM 48.4% / gemma 40.4% / qwen 48.9%** (thinking off) — the register compresses; ALL-CAPS styling costs 14–19 points in every family |
+| Lowercase readability, all families (same records, frozen 727 questions) | recovery **1.01–1.09** — casing changes token cost, not information recovery |
 | Foreign readers on GLM cablese (Gemma / Qwen / Nemotron / Gemma-26B) | recovery **1.00–1.10** (cablese ≥ plaintext, all pairs) |
 | GLM reading foreign cablese (Gemma / Qwen / **GPT-5-mini**) | recovery **1.09 / 1.10 / 0.99** (parity at 23% meter savings) |
 | In-family: answer-from-cablese vs answer-from-plaintext | 82.5% vs 75.8% (McNemar p=3e-06) |
