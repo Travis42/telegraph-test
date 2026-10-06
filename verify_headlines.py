@@ -108,6 +108,19 @@ for tag, claim in [("gemma", 0.404), ("qwen", 0.489)]:
     check(f"{tag} lowercase writer meter savings (README {claim:.1%})".replace("40.4%", "40.4%"),
           s["savings_pct_billing_basis"] / 100, claim)
 
+def _probe_visible(path):
+    vis = {"R-PLAIN": [], "R-CABLESE": []}
+    for line in open(path):
+        r = json.loads(line)
+        if r.get("type") != "billing_record":
+            continue
+        u = r["usage"]
+        vis[r["condition"]].append(u["completion_tokens"] - (u.get("reasoning_tokens") or 0))
+    return vis
+vl = _probe_visible(os.path.join(RUNS, "billing_gpt5mini_lowercase_20261005/ledger.jsonl"))
+check("gpt-5-mini lowercase visible-text savings (README 17.7%)",
+      1 - _med(vl["R-CABLESE"]) / _med(vl["R-PLAIN"]), 0.177)
+
 # --- report ------------------------------------------------------------------
 print(f"{'check':55s} {'computed':>10s} {'README':>8s}  ok")
 print("-" * 84)
