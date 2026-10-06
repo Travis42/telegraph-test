@@ -107,7 +107,6 @@ def run(results_dir, limit=None, model=DEFAULT_MODEL, provider="zai",
     if missing:
         sys.exit(f"error: cbl2 ledger has no quiz items for: {missing[:5]}")
 
-    client = default_client
     n_correct = n_total = n_anchored = n_correct_anchored = 0
     per_task = {}
     with open(ledger_path, "w", encoding="utf-8") as fh:
