@@ -1,0 +1,23 @@
+{
+  "run_id": "billing_probe_20261005_224654",
+  "model": "qwen/qwen3.8-27b",
+  "provider": "openrouter",
+  "reasoning_mode": null,
+  "reasoning_off": true,
+  "R-PLAIN": {
+    "n": 50,
+    "approx_tokens_median": 135.0,
+    "billed_completion_median": 95.0,
+    "reasoning_tokens_median": 0.0,
+    "latency_ms_median": 2284.365
+  },
+  "R-CABLESE": {
+    "n": 50,
+    "approx_tokens_median": 62.0,
+    "billed_completion_median": 48.5,
+    "reasoning_tokens_median": 0.0,
+    "latency_ms_median": 1716.1275
+  },
+  "savings_pct_storage_basis": 54.1,
+  "savings_pct_billing_basis": 48.9
+}

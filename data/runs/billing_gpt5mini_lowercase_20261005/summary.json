@@ -1,0 +1,23 @@
+{
+  "run_id": "billing_probe_20261005_225159",
+  "model": "openai/gpt-5-mini",
+  "provider": "openrouter",
+  "reasoning_mode": "effort_low",
+  "reasoning_off": true,
+  "R-PLAIN": {
+    "n": 50,
+    "approx_tokens_median": 108.0,
+    "billed_completion_median": 279.5,
+    "reasoning_tokens_median": 128.0,
+    "latency_ms_median": 2834.7535
+  },
+  "R-CABLESE": {
+    "n": 50,
+    "approx_tokens_median": 75.0,
+    "billed_completion_median": 563.0,
+    "reasoning_tokens_median": 448.0,
+    "latency_ms_median": 4926.888
+  },
+  "savings_pct_storage_basis": 30.6,
+  "savings_pct_billing_basis": -101.4
+}

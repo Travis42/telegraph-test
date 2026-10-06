@@ -1,0 +1,215 @@
+{
+  "condition": "A-FROM-CABLESE-LOWERCASE",
+  "model": "google/gemma-4-31b-it",
+  "provider": "openrouter",
+  "records_reused_from": "/root/clawd/telegraph-test/data/runs/lc_readability_20261005/ledger.jsonl",
+  "n_items": 727,
+  "n_anchored": 708,
+  "accuracy_v2": 0.7717,
+  "frozen_A_FROM_PLAIN": 0.758,
+  "frozen_A_FROM_CABLESE": 0.825,
+  "recovery_vs_plain": 1.018,
+  "recovery_vs_cablese_caps": 0.9354,
+  "per_task": {
+    "fact_long_01": {
+      "correct": 16,
+      "total": 19
+    },
+    "fact_long_02": {
+      "correct": 11,
+      "total": 12
+    },
+    "fact_long_03": {
+      "correct": 11,
+      "total": 19
+    },
+    "fact_long_04": {
+      "correct": 17,
+      "total": 18
+    },
+    "fact_long_05": {
+      "correct": 12,
+      "total": 20
+    },
+    "fact_long_06": {
+      "correct": 6,
+      "total": 7
+    },
+    "fact_med_01": {
+      "correct": 13,
+      "total": 16
+    },
+    "fact_med_02": {
+      "correct": 11,
+      "total": 15
+    },
+    "fact_med_03": {
+      "correct": 24,
+      "total": 31
+    },
+    "fact_med_04": {
+      "correct": 21,
+      "total": 32
+    },
+    "fact_med_05": {
+      "correct": 12,
+      "total": 13
+    },
+    "fact_med_06": {
+      "correct": 11,
+      "total": 18
+    },
+    "for_01": {
+      "correct": 10,
+      "total": 15
+    },
+    "for_02": {
+      "correct": 11,
+      "total": 13
+    },
+    "for_03": {
+      "correct": 13,
+      "total": 13
+    },
+    "for_04": {
+      "correct": 11,
+      "total": 14
+    },
+    "for_05": {
+      "correct": 11,
+      "total": 17
+    },
+    "for_06": {
+      "correct": 14,
+      "total": 18
+    },
+    "for_07": {
+      "correct": 10,
+      "total": 15
+    },
+    "for_08": {
+      "correct": 12,
+      "total": 15
+    },
+    "for_09": {
+      "correct": 7,
+      "total": 10
+    },
+    "for_10": {
+      "correct": 11,
+      "total": 11
+    },
+    "for_11": {
+      "correct": 9,
+      "total": 11
+    },
+    "for_12": {
+      "correct": 8,
+      "total": 14
+    },
+    "for_13": {
+      "correct": 12,
+      "total": 13
+    },
+    "for_14": {
+      "correct": 11,
+      "total": 13
+    },
+    "task_01": {
+      "correct": 3,
+      "total": 5
+    },
+    "task_02": {
+      "correct": 11,
+      "total": 13
+    },
+    "task_03": {
+      "correct": 8,
+      "total": 9
+    },
+    "task_04": {
+      "correct": 10,
+      "total": 11
+    },
+    "task_05": {
+      "correct": 9,
+      "total": 11
+    },
+    "task_06": {
+      "correct": 10,
+      "total": 15
+    },
+    "task_07": {
+      "correct": 7,
+      "total": 8
+    },
+    "task_08": {
+      "correct": 7,
+      "total": 8
+    },
+    "task_09": {
+      "correct": 12,
+      "total": 13
+    },
+    "task_10": {
+      "correct": 12,
+      "total": 15
+    },
+    "task_11": {
+      "correct": 6,
+      "total": 8
+    },
+    "task_12": {
+      "correct": 11,
+      "total": 16
+    },
+    "task_13": {
+      "correct": 9,
+      "total": 16
+    },
+    "task_14": {
+      "correct": 7,
+      "total": 8
+    },
+    "task_15": {
+      "correct": 8,
+      "total": 10
+    },
+    "task_16": {
+      "correct": 9,
+      "total": 9
+    },
+    "task_17": {
+      "correct": 8,
+      "total": 9
+    },
+    "task_18": {
+      "correct": 10,
+      "total": 15
+    },
+    "task_19": {
+      "correct": 18,
+      "total": 22
+    },
+    "task_20": {
+      "correct": 14,
+      "total": 19
+    },
+    "task_21": {
+      "correct": 10,
+      "total": 15
+    },
+    "task_22": {
+      "correct": 8,
+      "total": 9
+    },
+    "task_23": {
+      "correct": 19,
+      "total": 23
+    },
+    "task_24": {
+      "correct": 20,
+      "total": 28
+    }
+  }
+}

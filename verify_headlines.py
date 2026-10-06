@@ -96,6 +96,18 @@ lc = load("billing_glm_lowercase_20261005/summary.json")
 check("GLM meter savings, lowercase cablese (README 48.4%)",
       lc["savings_pct_billing_basis"] / 100, 0.484)
 
+lc = load("lc_readability_20261005/summary.json")
+check("GLM lowercase readability vs plain (README 1.089)",
+      lc["recovery_vs_plain"], 1.089)
+for tag, claim in [("gemma", 1.018), ("qwen", 1.0144), ("gpt5mini", 1.0362)]:
+    s = load(f"lc_read_{tag}_20261006/summary.json")
+    check(f"{tag} reads GLM lowercase records (README {claim})",
+          s["recovery_vs_plain"], claim)
+for tag, claim in [("gemma", 0.404), ("qwen", 0.489)]:
+    s = load(f"billing_{tag}_lowercase_20261005/summary.json")
+    check(f"{tag} lowercase writer meter savings (README {claim:.1%})".replace("40.4%", "40.4%"),
+          s["savings_pct_billing_basis"] / 100, claim)
+
 # --- report ------------------------------------------------------------------
 print(f"{'check':55s} {'computed':>10s} {'README':>8s}  ok")
 print("-" * 84)

@@ -1,0 +1,23 @@
+{
+  "run_id": "billing_probe_20261005_224037",
+  "model": "google/gemma-4-31b-it",
+  "provider": "openrouter",
+  "reasoning_mode": null,
+  "reasoning_off": true,
+  "R-PLAIN": {
+    "n": 50,
+    "approx_tokens_median": 117.5,
+    "billed_completion_median": 83.0,
+    "reasoning_tokens_median": 0.0,
+    "latency_ms_median": 3710.9764999999998
+  },
+  "R-CABLESE": {
+    "n": 50,
+    "approx_tokens_median": 64.0,
+    "billed_completion_median": 49.5,
+    "reasoning_tokens_median": 0.0,
+    "latency_ms_median": 2040.0185
+  },
+  "savings_pct_storage_basis": 45.5,
+  "savings_pct_billing_basis": 40.4
+}
