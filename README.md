@@ -4,7 +4,7 @@
 
 **Can language models write in cablese — the telegraph operators' compressed dialect — and be understood?**
 
-Instruct an LLM to write its records in *cablese* (drop articles and filler, abbreviate, keep every fact, number, and proper noun) and it emits **25–34% fewer billed output tokens on the provider's own meter** (thinking disabled where the API allows it). By character count the same records measure ~55% shorter — tokenizers fragment telegram-style text more than prose, so the meter is the basis that matters. The evidence in this repo says downstream models — including *other model families* — read those compressed records **as well as or better than** plaintext records.
+Instruct an LLM to write its records in *cablese* (drop articles and filler, abbreviate, keep every fact, number, and proper noun) and it emits **40–49% fewer billed output tokens on the provider's own meter** (lowercase instruction, thinking disabled where the API allows it; 25–34% as models write cablese by default). By character count the same records measure ~55% shorter — tokenizers fragment telegram-style text more than prose, so the meter is the basis that matters. The evidence in this repo says downstream models — including *other model families* — read those compressed records **as well as or better than** plaintext records.
 
 ## See it in 30 seconds
 
@@ -26,16 +26,16 @@ Related: [BabelTele](https://arxiv.org/abs/2606.19857) (arXiv 2606.19857) proves
 
 | Measurement | Result |
 |---|---|
-| Token savings, cablese records (GLM-5.3-Flash, provider meter) | **33.9%** (thinking-off probe, ledger-recomputed) |
+| Token savings, cablese records (GLM-5.3-Flash, provider meter) | **48.4%** with the lowercase instruction; 33.9% as-written (thinking-off probes, ledger-recomputed) |
 | Token savings, same records (character basis) | 54.6% (frozen cbl2; both bases in the ledgers) |
 | Token savings, **lowercase** cablese instruction (provider meters) | **GLM 48.4% / gemma 40.4% / qwen 48.9%** (thinking off) — the register compresses; ALL-CAPS styling costs 14–19 points in every family |
 | Lowercase readability, all families (same records, frozen 727 questions) | recovery **1.01–1.09** — casing changes token cost, not information recovery |
 | Foreign readers on GLM cablese (Gemma / Qwen / Nemotron / Gemma-26B) | recovery **1.00–1.10** (cablese ≥ plaintext, all pairs) |
-| GLM reading foreign cablese (Gemma / Qwen / **GPT-5-mini**) | recovery **1.09 / 1.10 / 0.99** (parity at 23% meter savings) |
+| GLM reading foreign cablese (Gemma / Qwen / **GPT-5-mini**) | recovery **1.09 / 1.10 / 0.99** (parity — even at gpt-5-mini's 17.7%, the weakest writer) |
 | In-family: answer-from-cablese vs answer-from-plaintext | 82.5% vs 75.8% (McNemar p=3e-06) |
 | Decode answer → plaintext (per-answer transcription) | 0.86 ratio — real, honest cost |
 | Decode record → plaintext, then answer (storage loop) | **1.08 ratio** (p=0.031); decoded archive costs less than plaintext |
-| Per-model compressibility, identical instruction (provider meters) | 22.6% (GPT-5-mini, visible) … 25.0% (Gemma) … 29.8% (Qwen) … 33.9% (GLM) — a property, not noise |
+| Per-model compressibility, lowercase instruction (provider meters) | 17.7% (GPT-5-mini, visible*) … 40.4% (Gemma) … 48.4% (GLM) … 48.9% (Qwen); as-written ALL-CAPS: 22.6 / 25.0 / 29.8 / 33.9 — a property, not noise |
 | Writer thinking control | GLM/Qwen/Gemma bill clean; gpt-5-mini reasoning is mandatory and its cablese writes bill ~2× (compression thinks ~3× harder) |
 
 **Verdict: cablese is a shared register across model families, not one model's idiolect.** Run `python3 verify_headlines.py` to recompute every number above from the frozen data in `data/runs/` — zero API calls.
